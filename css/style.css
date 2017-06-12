@@ -1,1 +1,14 @@
 /* YOUR CUSTOM STYLES */
+body{
+    background-color: #FFFDE7;
+    margin: 5% 10% 5% 10%;
+}
+
+#link-buttons{
+    width: auto;
+    margin: auto 1% auto 1%;
+    background-color: white;
+}
+#link-button-group{
+    margin: 10% 10% 10% 10%;
+}
