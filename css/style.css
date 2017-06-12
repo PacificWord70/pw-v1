@@ -10,15 +10,14 @@ body{
 }
 
 #projects{
+    background-color: blue;
+    width: 40%;
     margin: 5% 10% 5% 10%;
 }
 
 #link-buttons{
-    width: auto;
-    margin: 0% 1% 0% 1%;
     background-color: white;
 }
 #link-button-group{
-    margin: 5% 10% 5% 18%;
-    align-content: center;
+    text-align: center;
 }
