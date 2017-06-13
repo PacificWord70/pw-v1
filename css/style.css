@@ -5,6 +5,15 @@ body{
     margin: 80px 0rem 0rem 0rem;
 }
 
+#large-links{
+    margin: 5% 10% 5% 10%;
+    text-align: left;
+}
+
+.card{
+    margin-bottom: 2rem;
+}
+
 #title{
     margin: 5% 10% 5% 10%;
 }
