@@ -13,14 +13,12 @@ body{
     text-align: center;
 }
 
-.about-me{
+.component{
     width: 80%;
     margin: auto;
     margin-top: 4rem;
 }
 
-#skills{
-    width: 80%;
-    margin: auto;
-    margin-top: 4rem;
+#contact-me{
+    margin-top: 8rem;
 }
