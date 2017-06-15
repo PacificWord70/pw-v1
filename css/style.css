@@ -3,7 +3,7 @@ body{
     background:  url(http://wallpaper-gallery.net/images/minimal-wallpaper/minimal-wallpaper-12.jpg) no-repeat center center fixed; 
     background-size: cover;
     font-family: "Bookman Old Style";
-    margin: 80px 0rem 0rem 0rem;
+    margin: 90px 0rem 0rem 0rem;
 }
 
 #large-links{
@@ -20,8 +20,6 @@ body{
 }
 
 #projects{
-    background-color: blue;
-    width: 40%;
     margin: 5% 10% 5% 10%;
 }
 
