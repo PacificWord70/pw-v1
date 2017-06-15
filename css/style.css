@@ -22,3 +22,13 @@ body{
 #contact-me{
     margin-top: 8rem;
 }
+
+#link-button-group{
+    width: 80%;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+#link-buttons{
+    background-color: white;
+}
