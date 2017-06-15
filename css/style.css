@@ -6,6 +6,10 @@ body{
     margin: 90px 0rem 0rem 0rem;
 }
 
+.about-me{
+    margin: 5% 10% 5% 10%;
+}
+
 #large-links{
     margin: 5% 10% 5% 10%;
     text-align: left;
@@ -16,7 +20,9 @@ body{
 }
 
 #title{
-    margin: 5% 10% 5% 10%;
+    margin-top: 60px;
+    margin: 5% 35% 5% 35%;
+    text-align: center;
 }
 
 #projects{
