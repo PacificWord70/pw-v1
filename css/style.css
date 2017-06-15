@@ -17,6 +17,7 @@ img {
     margin: auto;
     margin-top: 60px;
     width: 80%;
+    margin-left: 7rem;
 }
 
 .card{
@@ -53,8 +54,8 @@ img {
 
 #projects{
     margin: 0rem;
-    width: 100%;
     padding: 0rem;
+    width: 100%;
 }
 
 #link-buttons{
