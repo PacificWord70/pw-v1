@@ -1,9 +1,26 @@
 /* YOUR CUSTOM STYLES */
+
 body{
     background:  url(http://wallpaper-gallery.net/images/minimal-wallpaper/minimal-wallpaper-12.jpg) no-repeat center center fixed; 
     background-size: cover;
-    font-family: "Bookman Old Style";
+    font-family: 'Spectral', serif;
     width: 90%;
+}
+
+.col-sm-{
+    height: 200px;
+    width: 25%;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.about-me-card{
+    padding: 5%;
+}
+
+.form-control{
+    margin: 0px;
+    padding: 0px;
 }
 
 #title{
