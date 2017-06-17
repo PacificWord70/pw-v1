@@ -18,10 +18,9 @@ body{
 }
 
 .col-sm-{
-    height: 200px;
-    width: 200px;
-    margin: 0rem;
-    padding: 0rem;
+    height: 200px !important;
+    width: 200px !important;
+    margin: 0rem !important;
 }
 
 .about-me-card{
@@ -31,6 +30,16 @@ body{
 .form-control{
     margin: 0px;
     padding: 0px;
+}
+
+.movie-love{
+    color: maroon;
+    padding: 5%;
+}
+
+.noteherder{
+    color: navy;
+    padding: 5%;
 }
 
 #title{
