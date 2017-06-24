@@ -4,7 +4,10 @@ body{
     background:  url(http://wallpaper-gallery.net/images/minimal-wallpaper/minimal-wallpaper-12.jpg) no-repeat center center fixed; 
     background-size: cover;
     font-family: 'Spectral', serif;
-    width: 90%;
+    content: center;
+    margin: 0rem !important;
+    padding: 0rem !important;
+    overflow-x: hidden !important;
 }
 
 .my-pic-card{
@@ -17,10 +20,20 @@ body{
     border-radius: 50% !important;
 }
 
-.col-sm-{
-    height: 200px !important;
-    width: 200px !important;
+#projects{
     margin: 0rem !important;
+    padding: 0rem !important;
+    width: 100% !important;
+}
+
+.project-text{
+    overflow-y: scroll !important;
+    height: 300px !important;
+}
+
+.project{
+    height: 300px !important;
+    overflow-y: hidden !important;
 }
 
 .about-me-card{
@@ -37,6 +50,11 @@ body{
     padding: 5%;
 }
 
+.upgrade-indy{
+    color: blue;
+    padding: 5%;
+}
+
 .noteherder{
     color: navy;
     padding: 5%;
@@ -45,8 +63,9 @@ body{
 #title{
     margin: auto;
     margin-top: 8rem;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem !important;
     text-align: center;
+    padding: 0% !important;
 }
 
 .component{
@@ -62,7 +81,7 @@ body{
 
 #contact-me{
     margin-top: 9rem;
-    margin-bottom: 1rem;
+    margin-bottom: 5rem;
 }
 
 #link-buttons{

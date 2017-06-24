@@ -68,13 +68,13 @@
     
     <!-- welcome + about me -->
     <div id = "title" class="card justify-content-center col-md-3 col-sm-10 z-depth-3 animated fadeInUpBig">
-        <div class="card-block justify-content-center">
+        <div class="card-block">
             <h1 class="card-title">Welcome</h1>
         </div>
     </div>
     <div class="component">
-        <div id="about-me">
-            <div class="row">
+        <div id="about-me" class="justify-content-center">
+            <div class="row justify-content-center">
                 <div class="col-sm-4 animated fadeInLeftBig">
                     <div class="card my-pic-card z-depth-0">
                         <img src="./me.jpg" class="my-pic z-depth-3" />
@@ -84,7 +84,7 @@
                     <div class="card about-me-card z-depth-3">
                         <h2 class="card-title">About Me</h2>
                         <h5 class="card-text">
-                            <br />My name is Heidi Anderson and I am a sophmore at Purdue University
+                            My name is Heidi Anderson and I am a sophmore at Purdue University
                             I am studying Computer Science, focusing on Machine Intelligence, with a minor in Unmanned Ariel Systems.
                             I love being out doors, doing community service, and exploring new places.
                             I am quick to solve problems and always keep a positive atitude!
@@ -101,68 +101,70 @@
             <h1 class="card-title">Projects</h1>
         </div>
     </div>
-    <div>
-        <div id = "projects" class="container">
-            <div class="row no-gutters">
-                <div class="col-sm-3 no-gutters animated fadeInLeftBig">
-                    <img src="./Icons/favmovies.tiff"/>
-                </div>
-                <div class="col-sm-3 no-gutters animated fadeInRightBig">
-                    <div class="movie-love card">
-                        <h5>Movie Love</h5>
-                        <p>
-                            Movie Love is a simple webpage I created that a user can use to create a list of their favorite movies.
-                            The user can enter the movie title and year.
-                            The list comes with some button features: Star, Remove, and IMDB link.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-sm-3 no-gutters animated fadeInLeftBig">
-                    <div>
-                        <img src="./Icons/upgradeIndy.jpg">
-                    </div>
-                </div>
-                <div class="col-sm-3 no-gutters animated fadeInRightBig">
-                    <div class=" card">
-                        <h5></h5>
-                        <p>
-                            Upgrade Indy is a project my team and I created during Indy Civil Hacks 2017.
-                            This site shows how businesses can elevate the community around them.
-                            Indy is a growing city and gaining many new companies and this can really help the citizens.
-                            We gathered data from the OpenIndy data portal about land zoning and crime.
-                            We allow businesses to view where similar companies to their's are located.
-                            I worked in the visualizatitons of the data comprized of the graph and dynamic map.
-                        </p>
-                    </div>
+    <div id = "projects" class="container z-depth-3 ">
+        <div class="row no-gutters">
+            <div class="project col-sm-3 no-gutters animated fadeInLeftBig">
+                <img src="./Icons/favmovies.tiff"/>
+            </div>
+            <div class="project col-sm-3 no-gutters animated fadeInRightBig">
+                <div class="movie-love card">
+                    <h5>Movie Love</h5>
+                    <p>
+                        Movie Love is a simple webpage I created that a user can use to create a list of their favorite movies.
+                        The user can enter the movie title and year.
+                        The list comes with some button features: Star, Remove, and IMDB link.
+                        <br/><br/><br/><br/><br/><br/><br/>
+                    </p>
                 </div>
             </div>
-            <div class="row no-gutters">
-                <div class="col-sm-3 animated fadeInLeftBig">
-                    <div class="z-depth-3 card noteherder">
-                        <h5>NoteHerder</h5>
-                        <p>
-                            NoteHerder is a note keeping web application.
-                            The notes are saved per person and automatically update.
-                        </p>
-                    </div>
+            <div class="project col-sm-3 no-gutters animated fadeInLeftBig">
+                <div>
+                    <img src="./Icons/upgradeIndy.jpg">
                 </div>
-                <div class="col-sm-3 animated fadeInRightBig">
-                    <div class="z-depth-3">
-                        <img src="">
-                    </div>
+            </div>
+            <div class="project-text col-sm-3 no-gutters animated fadeInRightBig">
+                <div class="upgrade-indy card">
+                    <h5>Upgrade Indy</h5>
+                    <p>
+                        Upgrade Indy is a project my team and I created during Indy Civil Hacks 2017.
+                        This site shows how businesses can elevate the community around them.
+                        Indy is a growing city and gaining many new companies and this can really help the citizens.
+                        We gathered data from the OpenIndy data portal about land zoning and crime.
+                        We allow businesses to view where similar companies to their's are located.
+                        I worked in the visualizatitons of the data comprized of the graph and dynamic map.
+                    </p>
                 </div>
-                <div class="col-sm-3 animated fadeInLeftBig">
-                    <div class="z-depth-3 card">
-                        <h5></h5>
-                        <p>
-                            
-                        </p>
-                    </div>
+            </div>
+        </div>
+        <div class="row no-gutters ">
+            <div class="project col-sm-3 animated fadeInLeftBig">
+                <div class="z-depth-3 card noteherder">
+                    <h5>NoteHerder</h5>
+                    <p>
+                        NoteHerder is a note keeping web application.
+                        The notes are saved per person and automatically update.
+                        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                    </p>
                 </div>
-                <div class="col-sm-3 animated fadeInRightBig">
-                    <div class="z-depth-3">
-                        <img src="">
-                    </div>
+            </div>
+            <div class="project col-sm-3 animated fadeInRightBig">
+                <div class="z-depth-3">
+                    <img src="">
+                </div>
+            </div>
+            <div class="project col-sm-3 animated fadeInLeftBig">
+                <div class="z-depth-3 card">
+                    <h5></h5>
+                    <p>
+                        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                    </p>
+                </div>
+            </div>
+            <div class="project col-sm-3 animated fadeInRightBig">
+                <div class="z-depth-3">
+                    <img src="">
                 </div>
             </div>
         </div>
@@ -218,7 +220,7 @@
 
     <!-- involvement -->
     <div id = "title" class="card justify-content-center col-md-3 col-sm-10 z-depth-3 animated fadeInUpBig">
-        <div class="card-block justify-content-center">
+        <div class="card-block">
             <h1 class="card-title">Involvement</h1>
         </div>
     </div>
