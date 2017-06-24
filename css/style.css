@@ -26,13 +26,31 @@ body{
     width: 100% !important;
 }
 
-.project-text{
+.project-items{
+    padding-top: 5% !important;
+    padding-bottom: 0% !important;
+    padding-left: 2% !important;
+    padding-right: 0% !important;
+}
+
+.overflow{
     overflow-y: scroll !important;
-    height: 325px !important;
+    height: 250px !important;
+    margin-bottom: 0rem !important;
+}
+
+.pheader{
+    height: 25px;
+    padding: 3%;
+}
+
+proj {
+    margin: 0rem !important;
+    padding: 0rem !important;
 }
 
 .project{
-    height: 325px !important;
+    height: 300px !important;
     overflow-y: hidden !important;
 }
 
