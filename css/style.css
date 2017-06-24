@@ -12,12 +12,14 @@ body{
 
 .my-pic-card{
     background: transparent;
+    padding: 0rem !important;
 }
 
 .my-pic{
     width: auto;
     height: auto;
     border-radius: 50% !important;
+    margin-top: 5%;
 }
 
 #projects{
