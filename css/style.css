@@ -49,13 +49,13 @@ body{
 }
 
 .component{
-    width: 80%;
+    width: 90%;
     margin: auto;
     margin-top: 4rem;
 }
 
 #contact-me{
-    margin-top: 4rem;
+    margin-top: 9rem;
     margin-bottom: 1rem;
 }
 
