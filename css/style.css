@@ -45,6 +45,7 @@ body{
 #title{
     margin: auto;
     margin-top: 8rem;
+    margin-bottom: 2rem;
     text-align: center;
 }
 
@@ -52,6 +53,11 @@ body{
     width: 90%;
     margin: auto;
     margin-top: 4rem;
+}
+
+#inv{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 #contact-me{
