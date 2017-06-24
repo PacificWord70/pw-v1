@@ -36,6 +36,10 @@ body{
     overflow-y: hidden !important;
 }
 
+.card{
+    padding: 5%;
+}
+
 .about-me-card{
     padding: 5%;
 }
@@ -47,22 +51,18 @@ body{
 
 .movie-love{
     color: green;
-    padding: 5%;
 }
 
 .dws{
     color: red;
-    padding: 5%;
 }
 
 .upgrade-indy{
     color: blue;
-    padding: 5%;
 }
 
 .noteherder{
-    color: navy;
-    padding: 5%;
+    color: darkorange;
 }
 
 #title{
@@ -91,4 +91,8 @@ body{
 
 #link-buttons{
     background-color: white;
+}
+
+.skills-card{
+    padding: 0rem !important;
 }
