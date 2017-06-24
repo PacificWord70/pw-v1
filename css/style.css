@@ -28,11 +28,11 @@ body{
 
 .project-text{
     overflow-y: scroll !important;
-    height: 300px !important;
+    height: 325px !important;
 }
 
 .project{
-    height: 300px !important;
+    height: 325px !important;
     overflow-y: hidden !important;
 }
 
@@ -46,7 +46,12 @@ body{
 }
 
 .movie-love{
-    color: maroon;
+    color: green;
+    padding: 5%;
+}
+
+.dws{
+    color: red;
     padding: 5%;
 }
 
