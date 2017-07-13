@@ -46,9 +46,14 @@ body{
     padding: 3%;
 }
 
-proj {
+.proj {
     margin: 0rem !important;
     padding: 0rem !important;
+}
+
+.proj-pic{
+    height: 313px !important;
+    width: 100% !important;
 }
 
 .project{
