@@ -1,7 +1,7 @@
 /* YOUR CUSTOM STYLES */
 
 body{
-    background:  url(https://theultralinx.com/.image/t_share/MTI5MDI2MjgzOTkxNjA3OTM5/7b906eaf9e216e20ec584fcf0170be1b.gif) no-repeat center center fixed; 
+    background:  url(https://s-media-cache-ak0.pinimg.com/originals/d8/23/2d/d8232d983f8f33de38e13e7bee7dceb5.jpg) no-repeat center center fixed; 
     background-size: cover;
     font-family: 'Spectral', serif;
     content: center;
@@ -88,6 +88,18 @@ body{
 
 .noteherder{
     color: darkorange;
+}
+
+#welcome{
+    margin: auto;
+    margin-top: 7.5rem !important;
+    margin-bottom: 4rem !important;
+    text-align: center;
+    padding: 0% !important;
+}
+
+.card-title{
+    margin-bottom: 0rem;
 }
 
 #title{
