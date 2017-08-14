@@ -11,8 +11,8 @@ body{
 }
 
 .my-pic-card{
-    background: transparent;
     padding: 0rem !important;
+    background: transparent;
 }
 
 .my-pic{
@@ -122,7 +122,7 @@ body{
 }
 
 #contact-me{
-    margin-top: 9rem;
+    margin-top: 8rem;
     margin-bottom: 5rem;
 }
 
