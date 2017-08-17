@@ -10,6 +10,11 @@ body{
     overflow-x: hidden !important;
 }
 
+.invimg{
+    width: auto !important;
+    height: 225px !important;
+}
+
 .my-pic-card{
     padding: 0rem !important;
     background: transparent;
