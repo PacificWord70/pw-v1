@@ -42,9 +42,10 @@ body{
 
 .underc{
     height: 7rem !important;
-    width: 19rem !important;
+    width: 25rem !important;
     margin: auto !important;
-    content: center;
+    content: center !important;
+    text-align: center !important;
 }
 
 .overflow{
