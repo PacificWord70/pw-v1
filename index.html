@@ -32,7 +32,7 @@
             <a class="navbar-brand">
                 <strong>Heidi Anderson</strong>
             </a>
-            <div class="collapse navbar-collapse" id="navbarNav1">
+            <div style="border-left: 1px solid #494b4b;" class="collapse navbar-collapse" id="navbarNav1">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
                         <a id="about-me-button" onClick="window.scrollTo(0, 0);" id="about-me" class="nav-link">About Me</a>
@@ -58,26 +58,27 @@
                         <a  id="links-button" onClick="window.scrollTo(0, 670);" class="nav-link">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a  id="links-button" onClick="window.scrollTo(0, 1250);" class="nav-link">Involvement</a>
+                        <a  id="links-button" onClick="window.scrollTo(0, 1230);" class="nav-link">Involvement</a>
                     </li>
                     <li class="nav-item dropdown btn-group">
-                            <a
-                                class="nav-link dropdown-toggle"
-                                id="dropdownMenu1"
-                                data-toggle="dropdown"
-                                aria-haspopup="true"
-                               aria-expanded="false"
-                            >
-                                Contact
-                            </a>
-                            <div class="dropdown-menu dropdown" aria-labelledby="dropdownMenu1">
-                                <a href="https://www.facebook.com/June3425" class="dropdown-item" style="color:#13499d;">Facebook</a>
-                                <a href="https://www.linkedin.com/in/heidi-anderson-b7b06613b/" class="dropdown-item" style="color:#1898c8;">LinkedIn</a>
-                                <a href="ResumeWithAddressMarch2018_CA.pdf" class="dropdown-item" style="color:#107c35;">Resume</a>
-                                <a href="https://github.com/PacificWord70" class="dropdown-item" style="color:#fc8724;">Github</a>
-                                <a href="mailto:heidianderson3@comcast.net?Subject=Hello%20Heidi" class="dropdown-item" style="color:#c70813;">Email</a>
-                           </div>
-                        </li>
+                        <a
+                            class="nav-link dropdown-toggle"
+                            id="dropdownMenu1"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                        >
+                            At a Glance
+                        </a>
+                        <div class="dropdown-menu dropdown" aria-labelledby="dropdownMenu1">
+                            <div style="border-left: thick solid #dcdcdb;">
+                                <p class="dropdown-item">Graduation: Spring 2020</p>
+                                <p class="dropdown-item">Cumulative GPA: 3.05</p>
+                                <p class="dropdown-item">Current Position: Undergrad TA in CS department</p>
+                            </div>
+                            <a class="dropdown-item" onClick="window.scrollTo(0,5000);">Links at bottom of page</a>
+                        </div>
+                    </li>
                     <!--
                     <li class="nav-item">
                         <a  id="links-button" onClick="window.scrollTo(0, 3650);" class="nav-link">Contact</a>
@@ -249,28 +250,10 @@
     <div class="component">
         <div id = "involvement" class="container">
             <div class="row justify-content-center">
-                <div id="inv" class="col-sm-4 animated fadeInLeftBig">
-                    <div class="card my-pic-card z-depth-0">
-                        <img class="invimg" src="./magic2.jpg" class="z-depth-5" />
-                    </div>
-                </div>
-                <div id="inv" class="col-sm-7 animated fadeInRightBig">
-                    <div class="card about-me-card z-depth-5">
-                        <h4 class="card-title">Mentoring Aspiring Girls in Computing</h4>
-                        <h6 class="card-text">
-                            MAGIC is a service learning class in which I teach local high school girls about computer science.
-                            I work with students to teach them about different coding languages, techniques, and opportunities.
-                            Mentoring these high school girls allows me to inspire other women to go into the tech field.
-                            MAGIC is working to create a closer community to give these students the confidence and knowledge to pursuit their interests.
-                        </h6>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center">
                 <div id="inv" class="col-sm-7 animated fadeInLeftBig">
                     <div class="card about-me-card z-depth-5">
                         <h4 class="card-title black-text"  style="background-color: white;">Gamma Phi Beta:<br/>Technology and Computer Chair</h4>
-                        <h6 class="card-body">
+                        <h6 style="border-left: 2px solid ghostwhite;" class="card-body">
                             I am an active member of the Gamma Phi Beta sorority.
                             We participate in serving the community through fundraisers and events.
                             Our philanthropy is Girls on the Run; we coach and support local teams of young girls in the program.
@@ -282,16 +265,30 @@
                 </div>
                 <div id="inv" class="col-sm-4 animated fadeInRightBig">
                     <div class="card my-pic-card z-depth-0">
-                        <img class="invimg" src="./gphib2.jpg" class="z-depth-5" />
+                        <img class="invimg" src="./gphib.jpeg" class="z-depth-5" />
                     </div>
                 </div>
             </div>
             <div class="row justify-content-center">
                 <div id="inv" class="col-sm-4 animated fadeInLeftBig">
                     <div class="card my-pic-card z-depth-0">
-                        <img class="invimg" src="./xtern2.jpg" class="z-depth-5" />
+                        <img class="invimg" src="./rc.jpeg" class="z-depth-5" />
                     </div>
                 </div>
+                <div id="inv" class="col-sm-7 animated fadeInRightBig">
+                    <div class="card about-me-card z-depth-5">
+                        <h4 class="card-title">Rockwell Collins: Summer Engineering Projects Program Intern</h4>
+                        <h6 cstyle="border-left: 2px solid ghostwhite;" lass="card-text">
+                            Over the summer of 2018, I participated as one of 25 interns in Rockwell Collin's Summer Engineering Projects Program.
+                            I used C++ and Python to modify company flight management software for a semi-autonomous fixed wing drone.
+                            I worked wih three teammates to explore the possibility of transforming the existing software into a civilian commerical product.
+                            My team worked with two other teams to integrate each of our experimental projects onto one physical system.
+                            We used the Agile process to delegate work to meet summer deadlines.
+                            At the conclusion of the summer, we displayed our work to company executives through a final presentation and written report.
+                        </h6>
+                    </div>
+                </div>
+                <!--
                 <div id="inv" class="col-sm-7 animated fadeInRightBig">
                     <div class="card about-me-card z-depth-5">
                         <h4 class="card-title">TechPoint Internship: Xtern Bootcamp</h4>
@@ -304,17 +301,17 @@
                         </h6>
                     </div>
                 </div>
+                -->
             </div>
             <div class="row justify-content-center">
                 <div id="inv" class="col-sm-7 animated fadeInLeftBig">
                     <div class="card about-me-card z-depth-5">
                         <h4 class="card-title">Purdue University Dance Marathon:<br/>Productions Committee</h4>
-                        <h6 class="card-text">
+                        <h6 style="border-left: 2px solid ghostwhite;" class="card-text">
                             PUDM is the university's dance marathon to fundraise for Riley's Hospital for Children.
                             Riley is a hospital the specializes in pediatric cancer.
                             PUDM raised $1,060,247 for Riley in 2016 and grows every year.
-                            I am on the Productions Committee.
-                            We are in charge of the event's livestream, merchandise, photography, and other technology.
+                            I am on the Productions Committee and we are in charge of the event's livestream, merchandise, photography, and other technologies.
                             During the year we create the event's theme, logo, merchandise graphics, and individual fundraising.
                         </h6>
                     </div>
@@ -322,6 +319,24 @@
                 <div id="inv" class="col-sm-4 animated fadeInRightBig">
                     <div class="card my-pic-card z-depth-5">
                         <img class="invimg" src="./pudm2.jpg" class="z-depth-5" />
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div id="inv" class="col-sm-4 animated fadeInLeftBig">
+                    <div class="card my-pic-card z-depth-0">
+                        <img class="invimg" src="./magic.jpeg" class="z-depth-5" />
+                    </div>
+                </div>
+                <div id="inv" class="col-sm-7 animated fadeInRightBig">
+                    <div class="card about-me-card z-depth-5">
+                        <h4 class="card-title">Mentoring Aspiring Girls in Computing</h4>
+                        <h6 style="border-left: 2px solid ghostwhite;" class="card-text">
+                            MAGIC is a service learning class in which I teach local high school girls about computer science.
+                            I work with students to teach them about different coding languages, techniques, and opportunities.
+                            Mentoring these high school girls allows me to inspire other women to go into the tech field.
+                            MAGIC is working to create a closer community to give these students the confidence and knowledge to pursuit their interests.
+                        </h6>
                     </div>
                 </div>
             </div>
