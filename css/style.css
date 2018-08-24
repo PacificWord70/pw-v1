@@ -1,7 +1,10 @@
 /* YOUR CUSTOM STYLES */
 
 body{
-    background:  url("./wood.jpg") no-repeat center center fixed; 
+    background-image:  url("../wood.jpg"); 
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
     background-size: cover;
     font-family: 'Spectral', serif;
     content: center;
