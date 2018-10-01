@@ -105,7 +105,7 @@
     
     <!-- welcome + about me -->
     <div id = "welcome" class="card justify-content-center col-md-3 col-sm-10 z-depth-5 animated fadeInDownBig">
-        <div class="card-block">
+        <div class="card-header">
             <h1 class="card-title">Welcome</h1>
         </div>
     </div>
@@ -215,7 +215,7 @@
 
     <!-- skills -->
     <div id = "title" class="card justify-content-center col-md-3 col-sm-10 z-depth-5 animated fadeInDownBig">
-        <div class="card-block justify-content-center">
+        <div class="card-header justify-content-center">
             <h1 class="card-title">Skills</h1>
         </div>
     </div>
@@ -257,7 +257,7 @@
 
     <!-- involvement -->
     <div id = "title" class="card justify-content-center col-md-3 col-sm-10 z-depth-5 animated fadeInDownBig">
-        <div class="card-block">
+        <div class="card-header">
             <h1 class="card-title">Involvement</h1>
         </div>
     </div>
@@ -394,19 +394,19 @@
 
     <!-- courses -->
     <div id = "title" class="card justify-content-center col-md-3 col-sm-10 z-depth-5 animated fadeInDownBig">
-        <div class="card-block justify-content-center">
+        <div class="card-header justify-content-center">
             <h1 class="card-title">Courses</h1>
         </div>
     </div>
     <div class="component">
         <div id = "courses" class="container">
             <div class="row justify-content-center">
-                <div class="col-sm-4 animated fadeInLeftBig">
+                <div class="col-sm-6 animated fadeInLeftBig">
                     <div class="card z-depth-5">
                         <h3 class="card-header black-text"  style="background-color: white;">General Computer Science</h3>
-                        <div class="card-block">
+                        <div class="card-block classes">
                             <ul>
-                                <li>CS180 : Problem Solving And Object-Oriented Programming</li>
+                                <li><a style="color: blue" id="cs180">><div style="color: black">CS180 : Problem Solving And Object-Oriented Programming</div></a></li>
                                 <li>CS182 : Foundations Of Computer Science</li>
                                 <li>CS240 : Programming In C</li>
                                 <li>CS250 : Computer Architecture</li>
@@ -418,10 +418,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 animated fadeInRightBig">
+                <div class="col-sm-6 animated fadeInRightBig">
                     <div class="card z-depth-5">
                         <h3 class="card-header black-text"  style="background-color: white;">Machine Intelligence Track</h3>
-                        <div class="card-block">
+                        <div class="card-block classes">
                             <ul>
                                 <li>CS251 : Data Structures And Algorithms</li>
                                 <li>CS373 : Data Mining And Machine Learning</li>
@@ -455,10 +455,7 @@
         </div>
     </div>
 
-    <!--<div id="popup">
-            Popper.js Tutorial!
-    </div>
-    <button id="button-a">button</button>
+
 -->
 
 
@@ -513,12 +510,12 @@
             </a>
         </div>
     </div>
+    <script src="./js/index.js"></script>
 
     <!-- /Start your project here-->
 
-    <!-- SCRIPTS 
-    <script src="./node_modules/popper.js/dist/popper.js"></script>
-     JQuery -->
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
     <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
     <!-- Bootstrap tooltips -->
     <script type="text/javascript" src="js/tether.min.js"></script>

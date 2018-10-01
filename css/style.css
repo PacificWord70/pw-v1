@@ -118,6 +118,16 @@ body{
     margin-bottom: 0rem;
 }
 
+.card-block {
+    padding-bottom: 0pt !important;
+    margin-bottom: 0pt !important;
+}
+
+.classes {
+    padding-left: 5pt !important;
+    padding-right: 5pt !important;
+}
+
 #title{
     margin: auto;
     margin-top: 8rem !important;
