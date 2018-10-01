@@ -13,11 +13,6 @@ body{
     overflow-x: hidden !important;
 }
 
-.invimg{
-    width: auto !important;
-    height: 225px !important;
-}
-
 .my-pic-card{
     padding: 0rem !important;
     background: transparent;
@@ -30,52 +25,12 @@ body{
     margin-top: 5%;
 }
 
-#projects{
-    margin: 0rem !important;
-    padding: 0rem !important;
-    width: 100% !important;
-}
-
-.project-items{
-    padding-top: 5% !important;
-    padding-bottom: 1% !important;
-    padding-left: 2% !important;
-    padding-right: 0% !important;
-}
-
-.underc{
-    height: 7rem !important;
-    width: 30rem !important;
-    margin: auto !important;
-    content: center !important;
-    text-align: center !important;
-}
-
 .overflow{
     overflow-y: scroll !important;
     height: 250px !important;
     margin-bottom: 0rem !important;
 }
 
-.pheader{
-    height: 25px;
-    padding: 3%;
-}
-
-.proj {
-    margin: 0rem !important;
-    padding: 0rem !important;
-}
-
-.proj-pic{
-    height: 313px !important;
-    width: 100% !important;
-}
-
-.project{
-    height: 300px !important;
-    overflow-y: hidden !important;
-}
 
 .card{
     padding: 5%;
@@ -88,22 +43,6 @@ body{
 .form-control{
     margin: 0px;
     padding: 0px;
-}
-
-.movie-love{
-    color: green;
-}
-
-.dws{
-    color: red;
-}
-
-.upgrade-indy{
-    color: blue;
-}
-
-.noteherder{
-    color: darkorange;
 }
 
 #welcome{
@@ -123,11 +62,6 @@ body{
     margin-bottom: 0pt !important;
 }
 
-.classes {
-    padding-left: 5pt !important;
-    padding-right: 5pt !important;
-}
-
 #title{
     margin: auto;
     margin-top: 8rem !important;
@@ -136,21 +70,11 @@ body{
     padding: 0% !important;
 }
 
-.component{
-    width: 90%;
-    margin: auto;
-    margin-top: 4rem;
-}
-
 #inv{
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
-#contact-me{
-    margin-top: 8rem;
-    margin-bottom: 5rem;
-}
 
 #link-buttons{
     background-color: white;
@@ -164,4 +88,13 @@ body{
     margin: auto;
     text-align: center;
     align-content: center;
+}
+
+.more {
+    padding-left: 0pt !important;
+    padding-right: 0pt !important;
+}
+
+.skilllist {
+    padding-left: 7% !important;
 }
