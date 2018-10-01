@@ -45,13 +45,6 @@ body{
     padding: 0px;
 }
 
-#welcome{
-    margin: auto;
-    margin-top: 7.5rem !important;
-    margin-bottom: 4rem !important;
-    text-align: center;
-    padding: 0% !important;
-}
 
 .card-title{
     margin-bottom: 0rem;
@@ -60,24 +53,6 @@ body{
 .card-block {
     padding-bottom: 0pt !important;
     margin-bottom: 0pt !important;
-}
-
-#title{
-    margin: auto;
-    margin-top: 8rem !important;
-    margin-bottom: 4rem !important;
-    text-align: center;
-    padding: 0% !important;
-}
-
-#inv{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-
-
-#link-buttons{
-    background-color: white;
 }
 
 .skills-card{
@@ -97,4 +72,53 @@ body{
 
 .skilllist {
     padding-left: 7% !important;
+}
+
+.wrk {
+    padding: 0% !important;
+}
+
+.wrkcard {
+    padding: 0% !important;
+    padding-top: 1rem !important;
+}
+
+
+#welcome{
+    margin: auto;
+    margin-top: 7.5rem !important;
+    margin-bottom: 4rem !important;
+    text-align: center;
+    padding: 0% !important;
+}
+
+#title{
+    margin: auto;
+    margin-top: 8rem !important;
+    margin-bottom: 4rem !important;
+    text-align: center;
+    padding: 0% !important;
+}
+
+#exp {
+    margin: 0% !important;
+    text-align: center;
+    padding: 0% !important;
+}
+
+#project {
+    margin: auto;
+    margin-top: 8rem !important;
+    margin-bottom: 4rem !important;
+    text-align: center;
+    padding: 0% !important;
+}
+
+#inv{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#link-buttons{
+    background-color: white;
 }
