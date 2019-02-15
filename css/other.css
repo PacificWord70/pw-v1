@@ -1,0 +1,10 @@
+/* YOUR CUSTOM STYLES */
+
+body{
+    background: white;
+    font-family: 'Perpetua', serif;
+    content: center;
+    margin: 0rem !important;
+    padding: 0rem !important;
+    overflow-x: hidden !important;
+}
