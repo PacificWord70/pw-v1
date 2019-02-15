@@ -119,6 +119,13 @@ body{
     margin-bottom: 2rem;
 }
 
+.invimg {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 5%
+}
+
 #link-buttons{
     background-color: white;
 }
