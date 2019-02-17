@@ -37,12 +37,25 @@ body{
     margin: 0%;
 }
 
-.pictures{
+.pictures-1{
     color: black; 
-    font-weight: bold; text-align: center;
+    font-weight: bold;
+     text-align: center;
     background-repeat: no-repeat; 
     background-position: center center;  
-    background-size: cover; height: 250px !important;
+    background-size: cover; height: 300px !important;
+    width: auto !important;
+    margin: 1%;
+    padding: 1%;
+}
+
+.pictures-2{
+    color: black; 
+    font-weight: bold;
+     text-align: center;
+    background-repeat: no-repeat; 
+    background-position: center center;  
+    background-size: cover; height: 200px !important;
     width: auto !important;
     margin: 1%;
     padding: 1%;
