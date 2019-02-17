@@ -10,11 +10,11 @@ document.querySelector('#cs348').addEventListener('click', cs348)
 function cs180() {
     const item = this.parentElement.querySelector('#cs180')
     console.log(item.innerHTML)
-    if(item.innerHTML=='<li>▾ CS180 : Problem Solving And Object-Oriented Programming</li>')
+    if(item.innerHTML=='▾ CS180 : Problem Solving And Object-Oriented Programming')
     {
         item.innerHTML = 
         `
-            <li id="cs180">▸ CS180 : Problem Solving And Object-Oriented Programming</li>
+            <div id="cs180">▸ CS180 : Problem Solving And Object-Oriented Programming
             <h6 style="border-left: 1px solid lightgrey; padding-left: 5pt;">Problem solving and algorithms,
              implementation of algorithms in a high level programming language, 
             conditionals, the iterative approach and debugging, collections of data, searching and sorting, solving 
@@ -23,36 +23,36 @@ function cs180() {
             data types, a glimpse at topics from other CS courses.</h6>
         `
     } else {
-        item.innerHTML='<li>▾ CS180 : Problem Solving And Object-Oriented Programming</li>'
+        item.innerHTML='▾ CS180 : Problem Solving And Object-Oriented Programming'
     }  
 }
 
 function cs182() {
     const item = this.parentElement.querySelector('#cs182')
     console.log(item.innerHTML)
-    if(item.innerHTML=='<li>▾ CS182 : Foundations Of Computer Science</li>')
+    if(item.innerHTML=='▾ CS182 : Foundations Of Computer Science')
     {
         item.innerHTML = 
         `
-            <li>▸ CS182 : Foundations Of Computer Science</li>
+            ▸ CS182 : Foundations Of Computer Science
             <h6 style="border-left: 1px solid lightgrey; padding-left: 5pt;">Logic and proofs; sets, functions,
              relations, sequences and summations; number representations; 
             counting; fundamentals of the analysis of algorithms; graphs and trees; proof techniques; recursion; 
             Boolean logic; finite state machines; pushdown automata; computability and undecidability.</h6>
         `
     } else {
-        item.innerHTML='<li>▾ CS182 : Foundations Of Computer Science</li>'
+        item.innerHTML='▾ CS182 : Foundations Of Computer Science'
     }  
 }
 
 function cs240() {
     const item = this.parentElement.querySelector('#cs240')
     console.log(item.innerHTML)
-    if(item.innerHTML=='<li>▾ CS240 : Programming In C</li>')
+    if(item.innerHTML=='▾ CS240 : Programming In C')
     {
         item.innerHTML = 
         `
-            <li>▸ CS240 : Programming In C</li>
+            ▸ CS240 : Programming In C
             <h6 style="border-left: 1px solid lightgrey; padding-left: 5pt;">The UNIX environment, 
             C development cycle, data representation, operators, program structure, 
             recursion, macros, C preprocessor, pointers and addresses, dynamic memory allocation, structures, 
@@ -60,18 +60,18 @@ function cs240() {
             low-level I/O, concurrency.</h6>
         `
     } else {
-        item.innerHTML='<li>▾ CS240 : Programming In C</li>'
+        item.innerHTML='▾ CS240 : Programming In C'
     }  
 }
 
 function cs250() {
     const item = this.parentElement.querySelector('#cs250')
     console.log(item.innerHTML)
-    if(item.innerHTML=='<li>▾ CS250 : Computer Architecture</li>')
+    if(item.innerHTML=='▾ CS250 : Computer Architecture')
     {
         item.innerHTML = 
         `
-            <li>▸ CS250 : Computer Architecture</li>
+            ▸ CS250 : Computer Architecture
             <h6 style="border-left: 1px solid lightgrey; padding-left: 5pt;">Digital logic: transistors, gates,
              and combinatorial circuits; clocks; registers and register 
             banks; arithmetic-logic units; data representation: big-endian and little-endian integers; 
@@ -81,18 +81,18 @@ function cs250() {
             polling and interrupts; DMA; device programming; assembly language; optimizations; parallelism; data pipelining.</h6>
         `
     } else {
-        item.innerHTML='<li>▾ CS250 : Computer Architecture</li>'
+        item.innerHTML='▾ CS250 : Computer Architecture'
     }  
 }
 
 function cs252() {
     const item = this.parentElement.querySelector('#cs252')
     console.log(item.innerHTML)
-    if(item.innerHTML=='<li>▾ CS252 : Systems Programming</li>')
+    if(item.innerHTML=='▾ CS252 : Systems Programming')
     {
         item.innerHTML = 
         `
-            <li>▸ CS252 : Systems Programming</li>
+            ▸ CS252 : Systems Programming
             <h6 style="border-left: 1px solid lightgrey; padding-left: 5pt;">Low-level programming; review of addresses,
              pointers, memory layout, and data representation; text, data, 
             and bss segments; debugging and hex dumps; concurrent execution with threads and processes; address spaces; 
@@ -103,36 +103,36 @@ function cs252() {
             directories; and DNS hierarchy; programming embedded systems.</h6>
         `
     } else {
-        item.innerHTML='<li>▾ CS252 : Systems Programming</li>'
+        item.innerHTML='▾ CS252 : Systems Programming'
     }  
 }
 
 function cs251() {
     const item = this.parentElement.querySelector('#cs251')
     console.log(item.innerHTML)
-    if(item.innerHTML=='<li>▾ CS251 : Data Structures And Algorithms</li>')
+    if(item.innerHTML=='▾ CS251 : Data Structures And Algorithms')
     {
         item.innerHTML = 
         `
-            <li>▸ CS251 : Data Structures And Algorithms</li>
+            ▸ CS251 : Data Structures And Algorithms
             <h6 style="border-left: 1px solid lightgrey; padding-left: 5pt;">Running time analysis of algorithms and
              their implementations, one-dimensional data structures, trees, 
             heaps, additional sorting algorithms, binary search trees, hash tables, graphs, directed graphs, weighted 
             graph algorithms, additional topics.</h6>
         `
     } else {
-        item.innerHTML='<li>▾ CS251 : Data Structures And Algorithms</li>'
+        item.innerHTML='▾ CS251 : Data Structures And Algorithms'
     }  
 }
 
 function cs373() {
     const item = this.parentElement.querySelector('#cs373')
     console.log(item.innerHTML)
-    if(item.innerHTML=='<li>▾ CS373 : Data Mining And Machine Learning</li>')
+    if(item.innerHTML=='▾ CS373 : Data Mining And Machine Learning')
     {
         item.innerHTML = 
         `
-            <li>▸ CS373 : Data Mining And Machine Learning</li>
+            ▸ CS373 : Data Mining And Machine Learning
             <h6 style="border-left: 1px solid lightgrey; padding-left: 5pt;">This course will introduce students to the
              field of data mining and machine learning, which sits at 
             the interface between statistics and computer science. Data mining and machine learning focuses on developing 
@@ -141,18 +141,18 @@ function cs373() {
             analysis, predictive modeling, descriptive modeling, and evaluation.</h6>
         `
     } else {
-        item.innerHTML='<li>▾ CS373 : Data Mining And Machine Learning</li>'
+        item.innerHTML='▾ CS373 : Data Mining And Machine Learning'
     }  
 }
 
 function cs348() {
     const item = this.parentElement.querySelector('#cs348')
     console.log(item.innerHTML)
-    if(item.innerHTML=='<li>▾ CS348 : Information Systems</li>')
+    if(item.innerHTML=='▾ CS348 : Information Systems')
     {
         item.innerHTML = 
         `
-            <li>▸ CS348 : Information Systems</li>
+            <v>▸ CS348 : Information Systems
             <h6 style="border-left: 1px solid lightgrey; padding-left: 5pt;"> File organization and index structures; 
             object-oriented database languages; the relational database model with introductions to SQL and DBMS; 
             hierarchical models and network models with introductions to HDDL, HDML, and DBTG Codasyl; data mining; 
@@ -160,6 +160,6 @@ function cs348() {
             ncluding ODBC, JDBC, CORBA, and MOM.</h6>
         `
     } else {
-        item.innerHTML='<li>▾ CS348 : Information Systems</li>'
+        item.innerHTML='▾ CS348 : Information Systems'
     }  
 }
