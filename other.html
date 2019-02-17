@@ -47,13 +47,13 @@
 
     <!-- nav scroll bar -->
     <nav class="navbar fixed-bottom navbar-toggleable-md navbar-dark animated fadeInDownBig" style="background-color: whitesmoke; width: 15%;">
-        <a onClick="window.scrollTo(0, 600);">  
+        <a style="color: black;" href="#intro">  
             <i class="fa fa-angle-double-up"> Return to Top</i>
         </a>
     </nav>
 
     <!-- Intro -->
-    <div class="container">
+    <div id="intro" class="container">
         <div class="row">
             <div class="col" style="margin: 2%;">
                     <div 
@@ -73,32 +73,32 @@
                         Jump to:
                     </h5>
                     <h6 style="line-height: 20pt;">
-                        <a onClick="window.scrollTo(0, 1200);">
+                        <a style="color: black;" href="#wrkexp">
                             <i class="fa fa-angle-left"></i>   
                             Work Experience 
                             <i class="fa fa-angle-right"></i> 
-                        </a>
-                        <a onClick="window.scrollTo(0, 2200);" class="nav-link">
+                        </a><br />
+                        <a style="color: black;" href="#links">
                             <i class="fa fa-angle-left"></i>   
                             Contact Links 
                             <i class="fa fa-angle-right"></i> 
-                        </a>
-                        <a onClick="window.scrollTo(0, 3000);" class="nav-link">
+                        </a><br />
+                        <a style="color: black;" href="#skills">
                             <i class="fa fa-angle-left"></i>   
                             Skills 
                             <i class="fa fa-angle-right"></i> 
-                        </a>
-                        <a onClick="window.scrollTo(0, 3400);" class="nav-link">
+                        </a><br />
+                        <a style="color: black;" href="#courses">
                             <i class="fa fa-angle-left"></i>   
                             Courses 
                             <i class="fa fa-angle-right"></i> 
-                        </a>
-                        <a onClick="window.scrollTo(0, 4170);" class="nav-link">
+                        </a><br />
+                        <a style="color: black;" href="#inv">
                             <i class="fa fa-angle-left"></i>   
                             Involvement 
                             <i class="fa fa-angle-right"></i> 
-                        </a>
-                        <a onClick="window.scrollTo(0, 5350);" class="nav-link">
+                        </a><br />
+                        <a style="color: black;" href="#aboutme">
                             <i class="fa fa-angle-left"></i>   
                             About Me 
                             <i class="fa fa-angle-right"></i> 
@@ -116,10 +116,10 @@
             </div>
         </div>
     <br />
-    </div><br /><br /><br />
 
     <!-- Work Experience -->
-    <div class="container" style="margin-right: 10%; margin-left: 10%; width: auto;">
+    <div id="wrkexp" class="container" style="margin-right: 10%; margin-left: 10%; width: auto;"> 
+        </div><br /><br /><br />
         <div class="">
             <h1>Work Experience</h1>
             <hr>
@@ -187,10 +187,10 @@
             </div>
         </div>
     </div>
-    <br /><br /><br /><br />
 
     <!-- links -->
-    <div id="link-button-group col-md-10">
+    <div id="links">
+        <br /><br /><br /><br />
         <div id = "link-button-group" class="row justify-content-center animated fadeInUpBig">
             <a href="https://www.facebook.com/June3425">
                 <button type="button" id = "link-buttons" class="btn btn-outline-primary waves-effect"><i class="fa fa-facebook-square" aria-hidden="true"></i> facebook</button>
@@ -209,9 +209,9 @@
             </a>
         </div>
     </div>
-    <br /><br />
 
     <!-- pictures -->
+    <br /><br />
     <div class="container grey-section">
         <div class="row">
             <div class="col">
@@ -298,10 +298,10 @@
             </div>
         </div>
     </div>
-    <br /><br /><br /><br />
 
     <!-- skills -->
-    <div class="container" style="margin-right: 10%; margin-left: 10%; width: auto;">
+    <div id="skills" class="container" style="margin-right: 10%; margin-left: 10%; width: auto;">
+        <br /><br /><br /><br />
         <div class="row">
             <div class="col" style="text-align: center">
                 <h1>Skills</h1>
@@ -340,10 +340,10 @@
             </div>
         </div>
     </div>
-    <br /><br /><br /><br />
 
     <!-- courses -->
-    <div class="container" style="margin-right: 10%; margin-left: 10%; width: auto;">
+    <div id="courses" class="container" style="margin-right: 10%; margin-left: 10%; width: auto;">
+        <br /><br /><br /><br />
         <div class="row">
             <div class="col" style="text-align: center">
                 <h1>Computer Science Courses</h1>
@@ -377,9 +377,9 @@
             </div>
         </div>
     </div>
-    <br /><br /><br /><br /><br /><br />
 
     <!-- more pics -->
+    <br /><br /><br /><br /><br /><br />
     <div class="container grey-section" style="padding-top: 0%;">
         <div class="row">
             <div class="col">
@@ -440,10 +440,10 @@
             </div>
         </div>
     </div>
-    <br />
 
     <!-- inv pics -->
-    <div class="container">
+    <br />
+    <div id="inv" class="container">
         <div class="row">
             <div class="col">
                 <div 
@@ -471,10 +471,10 @@
             </div>
         </div>
     </div>
-    <br /><br />
 
     <!-- involvement -->
     <div class="container" style="margin-right: 10%; margin-left: 10%; width: auto;">
+        <br /><br />
         <div class="row">
             <div class="col" style="text-align: center">
                 <h1>Involvement</h1>
@@ -585,11 +585,12 @@
             </div>
         </div>
     </div>
-    <br /><br /><br /><br /><br /><br />
        
     <!-- about me -->
-    <div class="container grey-section" style="margin-right: 10%; margin-left: 10%; width: auto;">
-        <div class="row justify-content-center">
+    <br /><br />
+    <div id="aboutme" class="container" style="margin-right: 10%; margin-left: 10%; width: auto;">
+        <br /><br /><br /><br />
+        <div class="row justify-content-center grey-section">
             <div class="col-md-7">
                 <h1 class=""  style="">
                     About Me
