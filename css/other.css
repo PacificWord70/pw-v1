@@ -43,7 +43,8 @@ body{
      text-align: center;
     background-repeat: no-repeat; 
     background-position: center center;  
-    background-size: cover; height: 300px !important;
+    background-size: cover; 
+    height: 300px !important;
     width: auto !important;
     margin: 1%;
     padding: 1%;
@@ -55,7 +56,8 @@ body{
      text-align: center;
     background-repeat: no-repeat; 
     background-position: center center;  
-    background-size: cover; height: 250px !important;
+    background-size: cover; 
+    height: 250px !important;
     width: auto !important;
     margin: 1%;
     padding: 1%;
