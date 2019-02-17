@@ -13,9 +13,17 @@
     <!-- Material Design Bootstrap -->
     <link href="css/mdb.min.css" rel="stylesheet">
     <!-- Your custom styles (optional) -->
-    <link href="css/other.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css?family=Quicksand|Playfair+Display+SC:700" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121915241-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-121915241-1');
+    </script>
 
 
 </head>
@@ -25,710 +33,522 @@
     <!-- Start your project here-->
     <link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
 
-    
-     <!-- welcome header -->
-     <div style="background-image: url('./Pics/IND.jpg'); color: black; 
-     font-weight: bold; text-align: center; background-repeat: no-repeat; 
-     background-position: center center; background-attachment: fixed; 
-     background-size: cover; height: 600px !important; width: 100% !important;">
-         <br /><br /><br />
-        <h1 style="font-size: 50px; 
-            font-family: 'Playfair Display SC', serif;
-        ">Heidi Anderson</h1>
-        <br />
-    </div>
-    <br />
-
-    <!-- nav scroll bar -->
-    <nav class="navbar fixed-bottom navbar-toggleable-md navbar-dark animated fadeInDownBig" style="background-color: whitesmoke; width: 15%;">
-        <a style="color: black;" href="#intro">  
-            <i class="fa fa-angle-double-up"> Return to Top</i>
-        </a>
-    </nav>
-
-    <!-- Intro -->
-    <div id="intro" class="container">
-        <div class="row">
-            <div class="col" style="margin: 2%;">
-                    <div 
-                    class="pictures-1"
-                    style="background-image: url('./Pics/bbridge.jpeg');  height: 500px !important;"
-                >
-                    <h2></h2>
-                </div>
-            </div>
-            <div class="col" style="margin: 4%; text-align: center;">
-                <div>
-                    <br /><br />
-                    <h1>Welome</h1>
-                    <hr>
-                    <br />
-                    <h5>
-                        Jump to:
-                    </h5>
-                    <h6 style="line-height: 20pt;">
-                        <a style="color: black;" href="#wrkexp">
-                            <i class="fa fa-angle-left"></i>   
-                            Work Experience 
-                            <i class="fa fa-angle-right"></i> 
-                        </a><br />
-                        <a style="color: black;" href="#links">
-                            <i class="fa fa-angle-left"></i>   
-                            Contact Links 
-                            <i class="fa fa-angle-right"></i> 
-                        </a><br />
-                        <a style="color: black;" href="#skills">
-                            <i class="fa fa-angle-left"></i>   
-                            Skills 
-                            <i class="fa fa-angle-right"></i> 
-                        </a><br />
-                        <a style="color: black;" href="#courses">
-                            <i class="fa fa-angle-left"></i>   
-                            Courses 
-                            <i class="fa fa-angle-right"></i> 
-                        </a><br />
-                        <a style="color: black;" href="#inv">
-                            <i class="fa fa-angle-left"></i>   
-                            Involvement 
-                            <i class="fa fa-angle-right"></i> 
-                        </a><br />
-                        <a style="color: black;" href="#aboutme">
-                            <i class="fa fa-angle-left"></i>   
-                            About Me 
-                            <i class="fa fa-angle-right"></i> 
+    <!-- navbar -->
+    <nav class="navbar fixed-top navbar-toggleable-md navbar-dark z-depth-5 animated fadeInDownBig" style="background-color: #424242;">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="www.heidianderson.online" class="navbar-brand">
+                <strong>Heidi Anderson</strong>
+            </a>
+            <div style="border-left: 1px solid #494b4b;" class="collapse navbar-collapse" id="navbarNav1">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a id="about-me-button" onClick="window.scrollTo(0, 0);" id="about-me" class="nav-link">About Me</a>
+                    </li>
+                    <!--
+                   <li class="nav-item dropdown btn-group">
+                        <a
+                            class="nav-link dropdown-toggle"
+                            id="dropdownMenu1"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                           aria-expanded="false"
+                        >
+                            Projects
                         </a>
-                    </h6>
-                </div>
+                        <div class="dropdown-menu dropdown" aria-labelledby="dropdownMenu1">
+                            <a href="https://github.com/PacificWord70" class="dropdown-item">Github</a>
+                            <a id="featured-button" onClick="window.scrollTo(0, 650);" class="dropdown-item">Featured</a>
+                       </div>
+                    </li>
+                    -->
+                    <li class="nav-item">
+                        <a  id="links-button" onClick="window.scrollTo(0, 690);" class="nav-link">Exp</a>
+                    </li>
+                    <li class="nav-item">
+                        <a  id="links-button" onClick="window.scrollTo(0, 1550);" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a  id="links-button" onClick="window.scrollTo(0, 2090);" class="nav-link">Involvement</a>
+                    </li>
+                    <li class="nav-item">
+                        <a  id="links-button" onClick="window.scrollTo(0, 3350);" class="nav-link">Courses</a>
+                    </li>
+                    <!--<li class="nav-item dropdown btn-group">
+                        <a
+                            class="nav-link dropdown-toggle"
+                            id="dropdownMenu1"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                        >
+                            At a Glance
+                        </a>
+                        <div class="z-depth-5 dropdown-menu dropdown" aria-labelledby="dropdownMenu1">
+                            <div style="border-left: thick solid #dcdcdb;">
+                                <p class="dropdown-item">Graduation: Spring 2020</p>
+                                <p class="dropdown-item">Cumulative GPA: 3.05</p>
+                                <p class="dropdown-item">Current Position: Undergrad TA in CS department</p>
+                            </div>
+                            <a class="dropdown-item" onClick="window.scrollTo(0,5000);">Links at bottom of page</a>
+                        </div>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a  id="links-button" onClick="window.scrollTo(0, 3650);" class="nav-link">Contact</a>
+                    </li>
+                    -->
+                </ul>
             </div>
-            <div class="col" style="margin: 2%;">
-                <div 
-                    class="pictures-1"
-                    style="background-image: url('./Pics/ggbridge.jpg');  height: 500px !important;"
-                >
-                    <h2></h2>
-                </div>
-            </div>
+        </div>
+    </nav>
+    
+    <!-- welcome + about me -->
+    <div id = "welcome" class="card justify-content-center col-md-3 col-sm-10 z-depth-5 animated fadeInDownBig">
+        <div class="card-header">
+            <h1 class="card-title">Welcome</h1>
         </div>
     </div>
-    <br />
-
-    <!-- Work Experience -->
-    <div id="wrkexp" class="container" style="margin-right: 10%; margin-left: 10%; width: auto;"> 
-        <br /><br /><br />
-        <div class="">
-            <h1>Work Experience</h1>
-            <hr>
-            <br />
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-sm-4 animated fadeInLeftBig">
-                <img style="width: 100%; height: auto;" class="" src="./Pics/capitalonelogo.png" />
-            </div>
-            <div class="col-md-8">
-                <h3 class="card-header black-text"  style="background-color: white;">
-                    Technology Development Program</br >Software Engineering Intern
-                </h3>
-                <div class="card-block">
-                    <p>
-                        Over the summer of 2019 I will be working as a Software Engineering Intern for Capital One in their headquartes McLean, Virginia.
-                    </p>
+    <div class="component">
+        <div id="about-me" class="justify-content-center">
+            <div class="row justify-content-center">
+                <div class="col-sm-3 animated fadeInLeftBig">
+                    <div class="card my-pic-card z-depth-0">
+                        <img src="./me.jpg" class="my-pic z-depth-5" />
+                    </div>
                 </div>
-            </div>
-        </div>
-        <br /><br />
-        <div class="row justify-content-center">
-            <div class="col-sm-4 animated fadeInLeftBig">
-                <img style="width: 100%; height: auto;" class="" src="./Pics/rc.png" />
-            </div>
-            <div class="col-md-8">
-                <h3 class="card-header black-text"  style="background-color: white;">
-                    Summer Engineering Project Program</br >Software Engineering Intern
-                </h3>
-                <div class="card-block">
-                    <p>
-                        Over the summer of 2018, I participated as one of 25 interns in Rockwell 
-                        Collin's Summer Engineering Projects Program (SEPP). I used C++ and Python to modify 
-                        company flight management software for a semi-autonomous fixed wing drone. 
-                        I worked with three teammates to explore the possibility of transforming the 
-                        existing software into a civilian commercial product. My team and I worked 
-                        with two other teams to integrate each of our experimental projects onto one 
-                        physical system. Our team used Agile to delegate work to meet summer deadlines. 
-                        And at the end of the summer, we displayed our work to company executives 
-                        through a final presentation and written report.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <br /><br />
-        <div class="row justify-content-center">
-            <div class="col-sm-4 animated fadeInLeftBig">
-                <img style="width: 70%; height: auto; margin: 5%;" class="" src="./Pics/purduecs.png" />
-            </div>
-            <div class="col-md-8 wrk">
-                <h3 class="card-header black-text"  style="background-color: white;">
-                    Undergraduate Teaching Assistant
-                </h3>
-                <div class="card-block wrk">
-                    <p>
-                        I was a TA for CS180 and CS180x. 
-                        CS180 is an the introductory computer science course for freshman. 
-                        CS 180x is the online version of CS180 for high schoolers and other students around the world. 
-                        These classes uses object-oriented Java to teach programming basics and principles. 
-                        Some topics include classes, methods, inheritence, threads, Android development, and networking.
-                        As a TA I aided students during lab sessions and exams. 
-                        I worked with other undergrad and graduate TAs to complete weekly class objectives.</p>
-                    </p>
+                <div class="col-sm-7 animated fadeInRightBig">
+                    <div class="card about-me-card z-depth-5">
+                        <h3 class="card-header black-text"  style="background-color: white;">About Me</h3>
+                        <h5 class="card-block">
+                            My name is Heidi Anderson and I am a junior at Purdue University, graduating in Spring 2020.
+                            I am studying Computer Science and focusing on Machine Intelligence.
+                            I love being active, serving the community, and exploring new places.
+                            I am quick to solve problems and always keep a positive atitude!
+                        </h5>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- links -->
-    <div id="links">
-        <br /><br /><br /><br />
-        <div id = "link-button-group" class="row justify-content-center animated fadeInUpBig">
-            <a href="https://www.facebook.com/June3425">
-                <button type="button" id = "link-buttons" class="btn btn-outline-primary waves-effect"><i class="fa fa-facebook-square" aria-hidden="true"></i> facebook</button>
-            </a>
-            <a href="https://www.linkedin.com/in/heidi-anderson-b7b06613b/">
-                <button type="button" id = "link-buttons" class="btn btn-outline-primary waves-effect"><i class="fa fa-linkedin-square" aria-hidden="true"></i> linkedin</button>
-            </a>
-            <a href="./Anderson.Heidi.Resume.pdf">
-                <button type="button" id = "link-buttons" class="btn btn-outline-primary waves-effect"><i class="fa fa-download" aria-hidden="true"></i> resume</button>
-            </a>
-            <a href="https://github.com/PacificWord70">
-                <button type="button" id = "link-buttons" class="btn btn-outline-primary waves-effect"><i class="fa fa-github" aria-hidden="true"></i> github</button>
-            </a>
-            <a href="mailto:heidianderson3@comcast.net?Subject=Hello%20Heidi">
-                <button type="button" id = "link-buttons" class="btn btn-outline-primary waves-effect"><i class="fa fa-envelope" aria-hidden="true"></i> email</button>
-            </a>
+    <!-- work experience -->
+    <div id = "title" class="card justify-content-center col-md-4 col-sm-10 z-depth-5 animated fadeInDownBig">
+        <div class="card-header justify-content-center">
+            <h1 class="card-title">Work Experience</h1>
         </div>
+    </div>
+    <div id = "exp">
+        <div class="row justify-content-center">
+            <div class="col-sm-12 animated fadeInLeftBig">
+                <div class="card wrkcard z-depth-5">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8 wrk">
+                            <h3 class="card-header black-text"  style="background-color: white;">Technology Development Program</br >Software Engineering Intern</h3>
+                            <div class="row justify-content-center wrk">
+                                <div class="col-sm-3 animated fadeInLeftBig wrk">
+                                    <ul>
+                                        <br />
+                                        <h4>Capital One</h4>
+                                        <a href="https://www.capitalone.com/"><li>Company Website</li></a>
+                                        <a href=""><li></li></a>
+                                        <a href=""><li></li></a>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-8 animated fadeInLeftBig wrk">
+                                    <div class="card-block wrk">
+                                        <p>Over the summer of 2019 I will be working as a Software Engineering Intern for Capital One in their headquartes McLean, Virginia.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 animated fadeInLeftBig">
+                            <img class="invimg" src="./capitalonelogo.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+        <div class="row justify-content-center">
+            <div class="col-sm-12 animated fadeInLeftBig">
+                <div class="card wrkcard z-depth-5">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8 wrk">
+                            <h3 class="card-header black-text"  style="background-color: white;">SEPP Software Intern</h3>
+                            <div class="row justify-content-center wrk">
+                                <div class="col-sm-3 animated fadeInLeftBig wrk">
+                                    <ul>
+                                        <br />
+                                        <h4>Rockwell Collins</h4>
+                                        <a href="https://www.rockwellcollins.com/"><li>Company Website</li></a>
+                                        <a href="https://www.rockwellcollins.com/Data/Success-Stories/Our-Story/2018-Cal-Yr/SEPP-Fair.aspx"><li>Project Article</li></a>
+                                        <a href="https://www.aviationjobsearch.com/en_US/job/sepp-systems-engineering-intern-summer-2018-2/9820353"><li>Program Description</li></a>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-8 animated fadeInLeftBig wrk">
+                                    <div class="card-block wrk">
+                                        <p>Over the summer of 2018, I participated as one of 25 interns in Rockwell 
+                                            Collin's Summer Engineering Projects Program (SEPP). I used C++ and Python to modify 
+                                            company flight management software for a semi-autonomous fixed wing drone. 
+                                            I worked with three teammates to explore the possibility of transforming the 
+                                            existing software into a civilian commercial product. My team and I worked 
+                                            with two other teams to integrate each of our experimental projects onto one 
+                                            physical system. Our team used Agile to delegate work to meet summer deadlines. 
+                                            And at the end of the summer, we displayed our work to company executives 
+                                            through a final presentation and written report.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 animated fadeInLeftBig">
+                            <img class="invimg" src="./rc.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+        <div class="row justify-content-center">
+                <div class="col-sm-12 animated fadeInLeftBig">
+                    <div class="card wrkcard z-depth-5">
+                        <div class="row justify-content-center">
+                            <div class="col-md-8 wrk">
+                                <h3 class="card-header black-text"  style="background-color: white;">Undergaduate Computer Science Teaching Assistant</h3>
+                                <div class="row justify-content-center wrk">
+                                    <div class="col-sm-3 animated fadeInLeftBig wrk">
+                                        <ul>
+                                            <br />
+                                            <h4>Purdue University</h4>
+                                            <a href="https://www.cs.purdue.edu/"><li>Department Webpage</li></a>
+                                            <a href="https://selfservice.mypurdue.purdue.edu/prod/bwckctlg.p_disp_course_detail?cat_term_in=201910&subj_code_in=CS&crse_numb_in=18000"><li>CS180 Description</li></a>
+                                            <a href="https://www.edx.org/course/ap-computer-science-java-programming-purduex-cs180-1x-0"><li>CS180x Description</li></a>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-8 animated fadeInLeftBig wrk">
+                                        <div class="card-block wrk">
+                                            <p>I am a TA for CS180 and CS180x. 
+                                                CS180 is an the introductory computer science course for freshman. 
+                                                CS 180x is the online version of CS180 for high schoolers and other students around the world. 
+                                                These classes uses object-oriented Java to teach programming basics and principles. 
+                                                Some topics include classes, methods, inheritence, threads, Android development, and networking.
+                                                As a TA I aid students during lab sessions and exams. 
+                                                I work with other undergrad and graduate TAs to complete weekly class objectives.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 animated fadeInLeftBig">
+                                <img style="width:60%" class="invimg" src="./purduecs.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </div>
 
-    <!-- pictures -->
-    <br /><br />
-    <div class="container grey-section">
-        <div class="row">
-            <div class="col">
-                <div 
-                    style="background-image: url('./Pics/tentlights.jpg');" 
-                    class="pictures-2"
-                >
-                    <h2></h2>
-                </div>
-            </div>
-            <div class="col">
-                <div 
-                    style="background-image: url('./Pics/att.jpg');" 
-                    class="pictures-2"
-                >
-                    <h2></h2>
-                </div>
-            </div>
-            <div class="col">
-                <div 
-                    style="background-image: url('./Pics/skiing.jpg');" 
-                    class="pictures-2"
-                >
-                    <h2></h2>
-                </div>
-            </div>
-            <div class="col">
-                <div 
-                    style="background-image: url('./Pics/ceiling.jpg');" 
-                    class="pictures-2"
-                >
-                    <h2></h2>
-                </div>
-            </div>
-            <div class="col">
-                <div 
-                    style="background-image: url('./Pics/mathbuilding.jpg');" 
-                    class="pictures-2"
-                >
-                    <h2></h2>
-                </div>
+    <!-- featured project -->
+    <!--
+    <div id = "title" class="card justify-content-center col-md-4 col-sm-10 z-depth-5 animated fadeInDownBig">
+            <div class="card-header justify-content-center">
+                <h1 class="card-title">Featured Project</h1>
             </div>
         </div>
-        <div class="row">
-            <div class="col">
-                <div 
-                    style="background-image: url('./Pics/plane.jpg');" 
-                    class="pictures-1"
-                >
-                    <h2></h2>
+    <div id = "project" class="justify-content-center fadeInDownBig">
+        <div class="card">
+            <h3 class="card-header">Budget Lime</h3>
+            <div class="card-block">
+                    <div class="row">
+                        <div class="col-md-4">Description</div>
+                        <div class="col-md-4">Links</div>
+                        <div class="col-md-4">Pics</div>
+                    </div>
                 </div>
-            </div>
-            <div class="col">
-                <div 
-                    style="background-image: url('./Pics/churchpews.jpg');" 
-                    class="pictures-1"
-                >
-                    <h2></h2>
-                </div>
-            </div>
-            <div class="col">
-                <div 
-                    style="background-image: url('./Pics/palmtrees.jpg');" 
-                    class="pictures-1"
-                >
-                    <h2></h2>
-                </div>
-            </div>
-            <div class="col">
-                <div 
-                    style="background-image: url('./Pics/window.jpg');" 
-                    class="pictures-1"
-                >
-                    <h2></h2>
-                </div>
-            </div>
-            <div class="col">
-                <div 
-                    style="background-image: url('./Pics/haleystreet.jpg');" 
-                    class="pictures-1"
-                >
-                    <h2></h2>
-                </div>
-            </div>
         </div>
     </div>
+    -->
 
     <!-- skills -->
-    <div id="skills" class="container" style="margin-right: 10%; margin-left: 10%; width: auto;">
-        <br /><br /><br /><br />
-        <div class="row">
-            <div class="col" style="text-align: center">
-                <h1>Skills</h1>
-            </div>
-        </div>
-        <hr>
-        <br />
-        <div class="row justify-content-center">
-            <div class="col-3" style="">
-                <h3 class="row">Technical Skills</h3>
-                <div class="row">
-                    <div class="col">Java</div>
-                    <div class="col">R</div>
-                </div>
-                <div class="row">
-                    <div class="col">C++</div>
-                    <div class="col">C</div>
-                </div>
-                <div class="row">
-                    <div class="col">Python</div>
-                    <div class="col">Javascript</div>
-                </div>
-                <div class="row">
-                    <div class="col">HTML / CSS</div>
-                </div>
-            </div>
-            <div class="col-1"></div>
-            <div class="col-2" style="">
-                <h3 class="row">Soft Skills</h3>
-                <div class="row">Positive atitude</div>
-                <div class="row">Maximizes situations</div>
-                <div class="row">Efficient time management</div>
-                <div class="row">Creative problem solving</div>
-                <div class="row">Organized and Adaptable</div>
-                <div class="row">Agile / Scrum</div>
-            </div>
+    <div id = "title" class="card justify-content-center col-md-3 col-sm-10 z-depth-5 animated fadeInDownBig">
+        <div class="card-header justify-content-center">
+            <h1 class="card-title">Skills</h1>
         </div>
     </div>
-
-    <!-- courses -->
-    <div id="courses" class="container" style="margin-right: 10%; margin-left: 10%; width: auto;">
-        <br /><br /><br /><br />
-        <div class="row">
-            <div class="col" style="text-align: center">
-                <h1>Computer Science Courses</h1>
-            </div>
-        </div>
-        <hr>
-        <br />
-        <div class="row justify-content-center">
-            <div class="col-4 animated fadeInLeftBig">
-                <h3 class=""  style="">General</h3>
-                <div id="cs180">▾ CS180 : Problem Solving And Object-Oriented Programming</div>
-                <div id="cs182">▾ CS182 : Foundations Of Computer Science</div>
-                <div id="cs240">▾ CS240 : Programming In C</div>
-                <div id="cs250">▾ CS250 : Computer Architecture</div>
-                <div id="cs252">▾ CS252 : Systems Programming</div>
-            </div>
-            <div class="col-4 animated fadeInRightBig">
-                <h3 class=""  style="">Machine Intelligence Track</h3>
-                <div id="cs251">▾ CS251 : Data Structures And Algorithms</div>
-                <div id="cs348">▾ CS348 : Information Systems</div>
-                <div id="cs373">▾ CS373 : Data Mining And Machine Learning</div>
-                <!--
-                <li>CS381 : Algs</li>
-                <li>CS471 : Intro MI</li>
-                <li>CS473 : Web Search</li>
-                -->
-            </div>
-        </div>
-    </div>
-
-    <!-- more pics -->
-    <br /><br /><br /><br /><br /><br />
-    <div class="container grey-section" style="padding-top: 0%;">
-        <div class="row">
-            <div class="col">
-                <div 
-                    style="background-image: url('./Pics/aquaduct.jpg');" 
-                    class="pictures-2"
-                >
-                    <h2></h2>
+    <div class="component">
+        <div id = "skills" class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-4 animated fadeInLeftBig">
+                    <div class="card z-depth-5">
+                        <h3 class="card-header black-text"  style="background-color: white;">Technical Skills</h3>
+                        <div class="card-block skilllist">
+                            <ul>
+                                <li>Java</li>
+                                <li>R</li>
+                                <li>C++</li>
+                                <li>C</li>
+                                <li>Python</li>
+                                <li>HTML / CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col">
-                <div 
-                    style="background-image: url('./Pics/cedarrapids.jpg');" 
-                    class="pictures-2"
-                >
-                    <h2></h2>
-                </div>
-            </div>
-            <div class="col">
-                <div 
-                    style="background-image: url('./Pics/cityview.jpg');" 
-                    class="pictures-2"
-                >
-                    <h2></h2>
-                </div>
-            </div>
-            <div class="col">
-                <div 
-                    style="background-image: url('./Pics/coastline.jpg');" 
-                    class="pictures-2"
-                >
-                    <h2></h2>
-                </div>
-            </div>
-            <div class="col">
-                <div 
-                style="background-image: url('./Pics/snowyroad.jpg');" 
-                class="pictures-2"
-            >
-                <h2></h2>
-                </div>
-            </div>
-            <div class="col">
-                <div 
-                style="background-image: url('./Pics/parkfountain.jpg');" 
-                class="pictures-2"
-            >
-                <h2></h2>
-                </div>
-            </div>
-            <div class="col">
-                <div 
-                style="background-image: url('./Pics/snowyview.jpg');" 
-                class="pictures-2"
-            >
-                <h2></h2>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- inv pics -->
-    <div id="inv" class="container">
-        <br />
-        <div class="row">
-            <div class="col" style="background-color: whitesmoke;">
-                <div 
-                    style="background-image: url('./Pics/magic.jpeg'); height: 200px !important;" 
-                    class="pictures-2"
-                >
-                    <h2></h2>
-                </div>
-            </div>
-            <div class="col" style="background-color: whitesmoke;">
-                <div 
-                    style="margin:3px !important; background-image: url('./Pics/ghc.png'); height: 200px !important;" 
-                    class="pictures-2"
-                >
-                    <h2></h2>
-                </div>
-            </div>
-            <div class="col" style="background-color: whitesmoke;">
-                <div 
-                    style="background-image: url('./Pics/sc18.png'); height: 200px !important;" 
-                    class="pictures-2"
-                >
-                <h2></h2>
-                </div>
-            </div>
-            <div class="col" style="background-color: whitesmoke;">
-                <div 
-                    style="background-image: url('./Pics/gphib.jpeg'); height: 200px !important;" 
-                    class="pictures-2"
-                >
-                <h2></h2>
+                <div class="col-sm-4 animated fadeInRightBig">
+                    <div class="card z-depth-5">
+                        <h3 class="card-header black-text"  style="background-color: white;">Soft Skills</h3>
+                        <div class="card-block skilllist">
+                            <ul>
+                                <li>Positive atitude</li>
+                                <li>Maximizes situations</li>
+                                <li>Efficient time management</li>
+                                <li>Creative problem solving</li>
+                                <li>Organized and Adaptable</li>
+                                <li>Agile / Scrum</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- involvement -->
-    <div class="container" style="margin-right: 10%; margin-left: 10%; width: auto;">
-        <br /><br />
-        <div class="row">
-            <div class="col" style="text-align: center">
-                <h1>Involvement</h1>
-            </div>
+    <div id = "title" class="card justify-content-center col-md-3 col-sm-10 z-depth-5 animated fadeInDownBig">
+        <div class="card-header">
+            <h1 class="card-title">Involvement</h1>
         </div>
-        <hr><br />
-        <div class="row">
-            <div class="col">
-                <div class="row justify-content-center">
-                    <div class="col">
-                        <h3 class=""  style="">
-                            Mentoring Aspiring Girls in Computing
-                        </h3>
-                        <div class="">
-                            <p>
-                                MAGIC is a service learning class in which I teach local high school girls about computer science. 
-                                I work with students to teach them about different coding languages, techniques, and opportunities. 
-                                Mentoring these high school girls allows me to inspire other women to go into the tech field. 
-                                MAGIC is working to create a closer community to give these students the confidence and knowledge to pursuit their interests.
-                            </p>
-                        </div>
+    </div>
+    <div class="component">
+        <div id = "involvement" class="container">
+            <div class="row justify-content-center">
+                <div id="inv" class="col-sm-7 animated fadeInLeftBig">
+                    <div class="card about-me-card z-depth-5">
+                        <h4 class="card-header black-text"  style="background-color: white;">Gamma Phi Beta:<br/>Technology and Computer Chair</h4>
+                        <h6 class="card-block">
+                            I am an active member of the Gamma Phi Beta sorority.
+                            We participate in serving the community through fundraisers and events.
+                            Our philanthropy is Girls on the Run; we coach and support local teams of young girls in the program.
+                            We also learn communication, leadership, and team building skills through our sisterhood.
+                            I am the chapter's Technology and Computer Chair.
+                            My responsibilities include aiding others with technical problems and questions plus being in charge of our house technology.
+                        </h6>
                     </div>
                 </div>
-                <br />
-                <div class="row justify-content-center">
-                    <div class="col">
-                        <h3 class=""  style="">
-                            Grace Hopper Celebration of Women<br />AnitaB.org Conference Scholar 2018
-                        </h3>
-                        <div class="">
-                            <p>
-                                I attended the Grace Hopper Conference(GHC) 2018 in Houston, Texas.
-                                I was one of the students selected for the AnitaB.org scholarship for this event.
-                                It was truely inspirational to attend such a large event and see such a large community of women in the tech-field.
-                                GHC is an event I hope to attend multiple times throughout my life.
-                                As a student I really enjoyed talking with and listening to women I could look up to;
-                                eventually, I would like to become one of those women to help young people.
-                                This event showed me a community that I knew existed, but I had never really felt, until then.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <br />
-                <div class="row justify-content-center">
-                    <div class="col">
-                        <h3 class=""  style="">
-                            Women in High Performance Computing<br />Student Cluster Competition 2018
-                        </h3>
-                        <div class="">
-                            <p>
-                                I attended the Supercomputing 2018 conference in Dallas, Texas, as a Student Cluster Competition Participant.
-                                The Student Cluster Competition(SCC) is a competition for undergraduate students to build and run a cluster.
-                                <a href="http://www.studentclustercompetition.us/2019/overview.html">Here</a> is a link to the official overview.
-                                I had a truly amazing experience learning about high-performance computing and machine learning.
-                                My team and I really enjoyed being the first all woman team from Purdue University and bringing our own flare to the event.
-                                The applications we ran during the competition were: HPL, HPCG, Horovod, OpenMC, WRF, and Seisol.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <br />
-                <div class="row justify-content-center">
-                    <div class="col">
-                        <h3 class=""  style="">
-                            Gamma Phi Beta<br />Technology and Computer Chair
-                        </h3>
-                        <div class="">
-                            <p>
-                                I am an active member of the Gamma Phi Beta sorority. 
-                                We participate in serving the community through fundraisers and events. 
-                                Our philanthropy is Girls on the Run; 
-                                we coach and support local teams of young girls in the program. 
-                                We also learn communication, leadership, and team building skills through our sisterhood. 
-                                I am the chapter's Technology and Computer Chair. 
-                                My responsibilities include aiding others with technical problems and questions plus being in charge of our house technology.
-                            </p>
-                        </div>
+                <div id="inv" class="col-sm-4 animated fadeInRightBig">
+                    <div class="card my-pic-card z-depth-5">
+                        <img class="" src="./gphib.jpeg" />
                     </div>
                 </div>
             </div>
-            <div class="col-1"></div>
-            <div class="col-5">
-                <br /><br />
-                <div class="row">
-                    <div class="col" style="text-align: center;">
-                        <h3 class=""  style="">
-                            Complete List
-                        </h3>
-                        <hr style="width:80%;">
-                        <div class="" style="line-height: 25pt;">
-                            <p>
-                                <ul>
-                                    <li>Mentoring Aspiring Girls in Computing</li>
-                                    <li>Grace Hopper Celebration of Women</li>
-                                    <li>Women in High Performance Computing</li>
-                                    <li>Gamma Phi Beta: Technology and Computer Chair</li>
-                                    <li>Sigma Alpha Pi: The National Society of Leadership and Success</li>
-                                    <li>Purdue University Dance Marathon: Productions Committee</li>
-                                    <li>Peer-2-Peer Mentor</li>
-                                    <li>iOS Developement Club</li>
-                                    <li>BoilerCode Mentor</li>
-                                    <li>Purdue Hackers</li>
-                                    <li>Computer Science Women's Network</li>
-                                </ul>
-                            </p>
-                        </div>
-                        <br />
-                        <div class="row">
-                            <div class="col">
-                                <div 
-                                    style="background-image: url('./Pics/watertower.jpg');" 
-                                    class="pictures-1"
-                                >
-                                    <h2></h2>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div 
-                                    style="background-image: url('./Pics/scc.jpg');" 
-                                    class="pictures-1"
-                                >
-                                    <h2></h2>
-                                </div>
-                            </div>
-                        </div>
+            <div class="row justify-content-center">
+                <div id="inv" class="col-sm-7 animated fadeInRightBig">
+                    <div class="card about-me-card z-depth-5">
+                        <h4 class="card-header black-text"  style="background-color: white;">Mentoring Aspiring Girls in Computing</h4>
+                        <h6 class="card-block">
+                            MAGIC is a service learning class in which I teach local high school girls about computer science.
+                            I work with students to teach them about different coding languages, techniques, and opportunities.
+                            Mentoring these high school girls allows me to inspire other women to go into the tech field.
+                            MAGIC is working to create a closer community to give these students the confidence and knowledge to pursuit their interests.
+                        </h6>
                     </div>
+                </div>
+                <div id="inv" class="col-sm-4 animated fadeInLeftBig">
+                    <div class="card my-pic-card z-depth-5">
+                        <img class="" src="./magic.jpeg" />
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div id="inv" class="col-sm-7 animated fadeInRightBig">
+                    <div class="card about-me-card z-depth-5">
+                        <h4 class="card-header black-text"  style="background-color: white;">Student Cluster Competition</h4>
+                        <h6 class="card-block">
+                            I attended the Supercomputing 2018 conference in Dallas, Texas, as a Student Cluster Competition Participant.
+                            The Student Cluster Competition(SCC) is a competition for undergraduate students to build and run a cluster.
+                            <a href="http://www.studentclustercompetition.us/2019/overview.html">Here</a> is a link to the official overview.
+                            I had a truly amazing experience learning about high-performance computing and machine learning.
+                            My team and I really enjoyed being the first all woman team from Purdue University and bringing our own flare to the event.
+                            The applications we ran during the competition were: HPL, HPCG, Horovod, OpenMC, WRF, and Seisol.
+                        </h6>
+                    </div>
+                </div>
+                <div id="inv" class="col-sm-4 animated fadeInLeftBig">
+                    <div class="card my-pic-card z-depth-5">
+                        <img class="" src="./sc18.png" />
+                    </div>
+                </div>
+            </div>
+            <!--
+            <div id="inv" class="col-sm-7 animated fadeInRightBig">
+                <div class="card about-me-card z-depth-5">
+                    <h4 class="card-title">TechPoint Internship: Xtern Bootcamp</h4>
+                    <h6 class="card-text">
+                        In June of 2017 I participated in TechPoint's nonprofit Xtern Bootcamp Internship.
+                        Techpoint's mission is to help guide Indianapolis into becoming the MidWestern Tech hub.
+                        Their Xtern programs are aimed at developing STEM talent and connecting them with local companies.
+                        For three weeks I learned different concepts and features within Javascript, HTML, CSS and React JS.
+                        Our main focus was understanding the components and foundation of React JS.
+                    </h6>
+                </div>
+            </div>
+            -->
+            <!--
+            <div id="inv" class="col-sm-7 animated fadeInLeftBig">
+                <div class="card about-me-card z-depth-5">
+                    <h4 class="card-title">Purdue University Dance Marathon:<br/>Productions Committee</h4>
+                    <h6 style="border-left: 2px solid ghostwhite;" class="card-text">
+                        PUDM is the university's dance marathon to fundraise for Riley's Hospital for Children.
+                        Riley is a hospital the specializes in pediatric cancer.
+                        PUDM raised $1,060,247 for Riley in 2016 and grows every year.
+                        I am on the Productions Committee and we are in charge of the event's livestream, merchandise, photography, and other technologies.
+                        During the year we create the event's theme, logo, merchandise graphics, and individual fundraising.
+                    </h6>
+                </div>
+            </div>
+            -->
+        </div>
+        <div class="row justify-content-center">
+            <div id="inv" class="col-sm-6 animated fadeInRightBig">
+                <div class="card z-depth-5">
+                    <h4 class="card-header black-text"  style="background-color: white;">More Involvement</h4>
+                    <h6 class="card-block more">
+                        <ul>
+                            <li>Women in High Performance Computing</li>
+                            <li>Sigma Alpha Pi: The National Society of Leadership and Success</li>
+                            <li>Purdue University Dance Marathon: Productions Committee</li>
+                            <li>Peer-2-Peer Mentor</li>
+                            <li>iOS Developement Club</li>
+                            <li>BoilerCode Mentor</li>
+                            <li>Purdue Hackers</li>
+                            <li>Computer Science Women's Network</li>
+                        </ul>
+                    </h6>
                 </div>
             </div>
         </div>
     </div>
-       
-    <!-- about me -->
-    <br /><br />
-    <div id="aboutme" class="container" style="margin-right: 10%; margin-left: 10%; width: auto;">
-        <br /><br /><br /><br />
-        <div class="row justify-content-center grey-section">
-            <div class="col-md-7">
-                <h1 class=""  style="">
-                    About Me
-                </h1>
-                <hr>
-                <div class="">
-                    <p>
-                        My name is Heidi Anderson and I am a junior at Purdue University, graduating in Spring 2020. 
-                        I am studying Computer Science and focusing on Machine Intelligence. 
-                        I love being active, serving the community, and exploring new places. 
-                        I am quick to solve problems and always keep a positive atitude!
-                    </p>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-md-4">
-                        <img style="width: 100%; height: auto;" class="" src="./Pics/palmspringsnormal.jpg" />
-                    </div>
-                    <div class="col-md-4">
-                        <img style="width: 100%; height: auto;" class="" src="./Pics/palmspringsreach.jpg" />
-                    </div>
-                    <div class="col-md-4">
-                        <img style="width: 100%; height: auto;" class="" src="./Pics/palmspringsjacket.jpg" />
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-1"></div>
-            <div class="col-sm-4 animated fadeInLeftBig">
-                <img style="width: 100%; height: auto;" class="" src="./Pics/me.jpg" />
-            </div>
-        </div>
-    </div>
-    <br /><br /><br />
 
-    <!-- more pics -->
-    <div class="container grey-section" style="padding-top: 1%;">
-        <div class="row">
-            <div class="col">
-                <div 
-                    style="background-image: url('./Pics/cup.jpg');" 
-                    class="pictures-1"
-                >
-                    <h2></h2>
+    <!-- courses -->
+    <div id = "title" class="card justify-content-center col-md-3 col-sm-10 z-depth-5 animated fadeInDownBig">
+        <div class="card-header justify-content-center">
+            <h1 class="card-title">Courses</h1>
+        </div>
+    </div>
+    <div class="component">
+        <div id = "courses" class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-6 animated fadeInLeftBig">
+                    <div class="card z-depth-5">
+                        <h3 class="card-header black-text"  style="background-color: white;">General Computer Science</h3>
+                        <div class="card-block more">
+                            <ul>
+                                <div id="cs180"><li>▾ CS180 : Problem Solving And Object-Oriented Programming</li></div>
+                                <div id="cs182"><li>▾ CS182 : Foundations Of Computer Science</li></div>
+                                <div id="cs240"><li>▾ CS240 : Programming In C</li></div>
+                                <div id="cs250"><li>▾ CS250 : Computer Architecture</li></div>
+                                <div id="cs252"><li>▾ CS252 : Systems Programming</li></div>
+                                <div id="cs348"><li>▾ CS348 : Information Systems</li></div>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col">
-                <div 
-                    style="background-image: url('./Pics/buildings1.jpg');" 
-                    class="pictures-1"
-                >
-                    <h2></h2>
+                <br ><br >
+                <div class="col-sm-6 animated fadeInRightBig">
+                    <div class="card z-depth-5">
+                        <h3 class="card-header black-text"  style="background-color: white;">Machine Intelligence Track</h3>
+                        <div class="card-block more">
+                            <ul>
+                                <div id="cs251"><li>▾ CS251 : Data Structures And Algorithms</li></div>
+                                <div id="cs373"><li>▾ CS373 : Data Mining And Machine Learning</li></div>
+                                <!--
+                                <li>CS381 : Algs</li>
+                                <li>CS471 : Intro MI</li>
+                                <li>CS473 : Web Search</li>
+                                -->
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col">
-                <div 
-                    style="background-image: url('./Pics/chauncy.jpg');" 
-                    class="pictures-1"
-                >
-                    <h2></h2>
-                </div>
-            </div>
-            <div class="col">
-                <div 
-                    style="background-image: url('./Pics/castle.jpg');" 
-                    class="pictures-1"
-                >
-                    <h2></h2>
-                </div>
-            </div>
-            <div class="col">
-                <div 
-                style="background-image: url('./Pics/santacruz.jpg');" 
-                class="pictures-1"
-            >
-                <h2></h2>
-                </div>
-            </div>
-            <div class="col">
-                <div 
-                style="background-image: url('./Pics/buildings2.jpg');" 
-                class="pictures-1"
-            >
-                <h2></h2>
-                </div>
+                <!--<div class="col-sm-4 animated fadeInRightBig">
+                    <div class="card z-depth-5">
+                        <h3 class="card-header black-text"  style="background-color: white;">Unmanned Aerial Systems</h3>
+                        <div class="card-block">
+                            <ul>
+                                <li>AT106 : Basic Aircraft Science</li>
+                                
+                                <li>AT209 : Civilian UAS</li>
+                                <li>AT219 :  UAS</li>
+                                <li>AT286 : Flight Regulations</li>
+                                <li>AT309 :  UAS</li>
+                                <li>AT319 :  UAS</li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>-->
             </div>
         </div>
-        <div class="row">
-            <div class="col">
-                <div 
-                    style="background-image: url('./Pics/churchview.jpg');" 
-                    class="pictures-2"
-                >
-                    <h2></h2>
+    </div>
+
+
+    <br ><br ><br ><br ><br ><br >
+    <!-- contact -->
+    <!--
+    <div id="contact-me" class = "container">
+        <div class="row justify-content-center wow animated fadeInUpBig">
+            <div class="card card-block col-sm-10 col-md-7">
+                <div class="text-center">
+                    <h3><i class="fa fa-envelope"></i>Contact Me:<br />*** UNDER CONSTRUCTION *** </h3>
+                    <hr class="mt-2 mb-2"/>
                 </div>
-            </div>
-            <div class="col">
-                <div 
-                style="background-image: url('./Pics/gpb.jpg');" 
-                class="pictures-2"
-            >
-                <h2></h2>
+                <br/>
+                <div class="md-form">
+                    <input type="text" id="form3" class="form-control" placeholder="Your Name"/>
                 </div>
-            </div>
-            <div class="col">
-                <div 
-                    style="background-image: url('./Pics/rocks.jpg');" 
-                    class="pictures-2"
-                >
-                    <h2></h2>
+                <div class="md-form">
+                    <input type="text" id="form2" class="form-control" placeholder="Your Email Address"/>
+                </div>
+                <div class="md-form">
+                    <input type="text" id="form32" class="form-control" placeholder="Subject"/>
+                </div>
+                <div class="md-form">
+                    <textarea type="text" id="form8" class="md-textarea" placeholder="Message"></textarea>
+                </div>
+                <div class="text-center">
+                    <button class="btn btn-default">Submit</button>
                 </div>
             </div>
         </div>
     </div>
-    
+    -->
+
+    <!-- links -->
+    <div id="link-button-group col-md-10">
+        <div id = "link-button-group" class="row justify-content-center animated fadeInUpBig">
+            <a href="https://www.facebook.com/June3425">
+                <button type="button" id = "link-buttons" class="btn btn-outline-primary waves-effect"><i class="fa fa-facebook-square" aria-hidden="true"></i> facebook</button>
+            </a>
+            <a href="https://www.linkedin.com/in/heidi-anderson-b7b06613b/">
+                <button type="button" id = "link-buttons" class="btn btn-outline-info waves-effect"><i class="fa fa-linkedin-square" aria-hidden="true"></i> linkedin</button>
+            </a>
+            <a href="./Anderson.Heidi.Resume.pdf">
+                <button type="button" id = "link-buttons" class="btn btn-outline-success waves-effect"><i class="fa fa-download" aria-hidden="true"></i> resume</button>
+            </a>
+            <a href="https://github.com/PacificWord70">
+                <button type="button" id = "link-buttons" class="btn btn-outline-warning waves-effect"><i class="fa fa-github" aria-hidden="true"></i> github</button>
+            </a>
+            <a href="mailto:heidianderson3@comcast.net?Subject=Hello%20Heidi">
+                <button type="button" id = "link-buttons" class="btn btn-outline-danger waves-effect"><i class="fa fa-envelope" aria-hidden="true"></i> email</button>
+            </a>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
 
     <!-- /Start your project here-->
 
-    <br /><br />
     <!-- SCRIPTS -->
-    <script src="./js/index.js"></script>
     <!-- JQuery -->
     <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
     <!-- Bootstrap tooltips -->
