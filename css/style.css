@@ -59,10 +59,11 @@ body{
     padding: 0rem !important;
 }
 
-.link{
+#links{
     margin: auto;
     text-align: center;
     align-content: center;
+    margin-left: 2rem !important;
 }
 
 .more {
