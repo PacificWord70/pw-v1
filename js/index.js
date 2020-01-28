@@ -6,11 +6,12 @@ document.querySelector('#cs251').addEventListener('click', cs251)
 document.querySelector('#cs252').addEventListener('click', cs252)
 document.querySelector('#cs373').addEventListener('click', cs373)
 document.querySelector('#cs348').addEventListener('click', cs348)
+document.querySelector('#cs354').addEventListener('click', cs354)
 document.querySelector('#cs381').addEventListener('click', cs381)
 document.querySelector('#cs448').addEventListener('click', cs448)
-//document.querySelector('#cs471').addEventListener('click', cs471)
+document.querySelector('#cs471').addEventListener('click', cs471)
 document.querySelector('#stat350').addEventListener('click', stat350)
-//document.querySelector('#stat416').addEventListener('click', stat416)
+document.querySelector('#stat416').addEventListener('click', stat416)
 
 function cs180() {
     const item = this.parentElement.querySelector('#cs180')
@@ -166,6 +167,24 @@ function cs348() {
         `
     } else {
         item.innerHTML='▾ CS348 : Information Systems'
+    }  
+}
+
+function cs354() {
+    const item = this.parentElement.querySelector('#cs354')
+    console.log(item.innerHTML)
+    if(item.innerHTML=='▾ CS354 : Operating Systems')
+    {
+        item.innerHTML = 
+        `
+            <v>▸ CS354 : Operating Systems
+            <h6 style="border-left: 1px solid lightgrey; padding-left: 5pt;"> Introduction to operating systems. 
+            Computer system and operating system architectures, processes, inter-process communication, 
+            inter-process synchronization, mutual exclusion, deadlocks, memory hierarchy, virtual memory, 
+            CPU scheduling, file systems, I/O device management, security.</h6>
+        `
+    } else {
+        item.innerHTML='▾ CS354 : Operating Systems'
     }  
 }
 
