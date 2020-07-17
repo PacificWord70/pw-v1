@@ -1,6 +1,6 @@
 
-<nav class="navbar navbar-expand-lg navbar-light"
-    style="font-family: 'Righteous', cursive; background-color: #ffe1db;">
+<nav class="navbar navbar-expand-lg navbar-light navbar-font"
+    style="background-color: #ffe1db;">
   
     <a class="navbar-brand" routerLink="/home">Home</a>
 
@@ -12,22 +12,28 @@
       <li class="nav-item">
         <a class="nav-link" routerLink="/work">Work</a>
       </li>
-    </ul>
-  </div>
-  <!--
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
+        <div ngbDropdown class="d-inline-block">
+          <button class="btn" style="color: #7d716e;" id="dropdownBasic1" ngbDropdownToggle>Contact</button>
+          <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+            <button ngbDropdownItem>
+              <a href="https://www.linkedin.com/in/heidi-anderson-b7b06613b/">
+                  <button type="button" id = "link-buttons" class="btn waves-effect"><i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</button>
+              </a>
+            </button>
+            <button ngbDropdownItem>
+              <a href="https://github.com/PacificWord70">
+                <button type="button" id = "link-buttons" class="btn waves-effect"><i class="fa fa-github" aria-hidden="true"></i> Github</button>
+              </a>
+            </button>
+            <button ngbDropdownItem>
+              <a class="btn waves-effect" routerLink="/email">Email</a>
+            </button>
+          </div>
         </div>
       </li>
+    </ul>
+  <!--
       <li class="nav-item">
         <a class="nav-link disabled" href="#">Disabled</a>
       </li>
@@ -36,6 +42,6 @@
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>
-  </div>
   -->
+  </div>
 </nav>
