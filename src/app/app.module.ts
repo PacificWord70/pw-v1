@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { TabModule } from 'angular-tabs-component';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -15,6 +16,7 @@ import { SchoolComponent } from './components/school/school.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { InvolvementComponent } from './components/involvement/involvement.component';
+import { SchoolCoursesComponent } from './components/school-courses/school-courses.component';
 
 @NgModule({
   declarations: [
@@ -29,10 +31,12 @@ import { InvolvementComponent } from './components/involvement/involvement.compo
     ContactComponent,
     SkillsComponent,
     InvolvementComponent,
-    EmailComponent
+    EmailComponent,
+    SchoolCoursesComponent
   ],
   imports: [
     BrowserModule,
+    TabModule,
     AppRoutingModule,
     NgbModule
   ],
