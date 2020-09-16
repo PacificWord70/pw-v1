@@ -5,169 +5,180 @@
         </div>
     </div>
     <hr><br />
-    <div class="row">
-        <h3 class=""  style="">General</h3>
+    <div class="row justify-content-center">
+        <div class="col-md-11">
+            <div class="row">
+                <h3 class=""  style="">General</h3>
+            </div>
+            <div class="row" >
+                <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-courses-general" style="width: 100%;">
+                    <ngb-panel title="CS180 : Problem Solving And Object-Oriented Programming">
+                        <ng-template ngbPanelContent>
+                            Problem solving and algorithms, implementation of algorithms in a high level programming language, 
+                            conditionals, the iterative approach and debugging, collections of data, searching and sorting, solving 
+                            problems by decomposition, the object-oriented approach, subclasses of existing classes, handling exceptions 
+                            that occur when the program is running, graphical user interfaces (GUIs), data stored in files, abstract 
+                            data types, a glimpse at topics from other CS courses.
+                        </ng-template>
+                    </ngb-panel>
+                    <ngb-panel title="CS182 : Foundations Of Computer Science">
+                        <ng-template ngbPanelContent>
+                            Logic and proofs; sets, functions, relations, sequences and summations; number representations; 
+                            counting; fundamentals of the analysis of algorithms; graphs and trees; proof techniques; recursion; 
+                            Boolean logic; finite state machines; pushdown automata; computability and undecidability.
+                        </ng-template>
+                    </ngb-panel>
+                    <ngb-panel title="CS240 : Programming In C">
+                        <ng-template ngbPanelContent>
+                            The UNIX environment, 
+                            C development cycle, data representation, operators, program structure, 
+                            recursion, macros, C preprocessor, pointers and addresses, dynamic memory allocation, structures, 
+                            unions, typedef, bit-fields, pointer/structure applications, UNIX file abstraction, file access, 
+                            low-level I/O, concurrency.
+                        </ng-template>
+                    </ngb-panel>
+                    <ngb-panel title="CS250 : Computer Architecture">
+                        <ng-template ngbPanelContent>
+                            Digital logic: transistors, gates,
+                            and combinatorial circuits; clocks; registers and register 
+                            banks; arithmetic-logic units; data representation: big-endian and little-endian integers; 
+                            ones and twos complement arithmetic; signed and unsigned values; Von-Neumann architecture and bottleneck; 
+                            instruction sets; RISC and CISC designs; instruction pipelines and stalls; rearranging code; memory and 
+                            address spaces; physical and virtual memory; interleaving; page tables; memory caches; bus architecture; 
+                            polling and interrupts; DMA; device programming; assembly language; optimizations; parallelism; data pipelining.
+                        </ng-template>
+                    </ngb-panel>
+                    <ngb-panel title="CS252 : Systems Programming">
+                        <ng-template ngbPanelContent>
+                            Low-level programming; review of addresses,
+                            pointers, memory layout, and data representation; text, data, 
+                            and bss segments; debugging and hex dumps; concurrent execution with threads and processes; address spaces; 
+                            file names; descriptors and file pointers; inheritance; system calls and library functions; standard I/O and 
+                            string libraries; simplified socket programming; building tools to help programmers; make and make files; 
+                            shell scripts and quoting; unix tools including sed, echo, test, and find; scripting languages such as awk; 
+                            version control; object and executable files (.o and a.out); symbol tables; pointers to functions; hierarchical 
+                            directories; and DNS hierarchy; programming embedded systems.
+                        </ng-template>
+                    </ngb-panel>
+                    <ngb-panel title="CS354 : Operating Systems">
+                        <ng-template ngbPanelContent>
+                            Introduction to operating systems. 
+                            Computer system and operating system architectures, processes, inter-process communication, 
+                            inter-process synchronization, mutual exclusion, deadlocks, memory hierarchy, virtual memory, 
+                            CPU scheduling, file systems, I/O device management, security.
+                        </ng-template>
+                    </ngb-panel>
+                    <ngb-panel title="STAT350 : Introduction To Statistics">
+                        <ng-template ngbPanelContent>
+                            A data-oriented 
+                            introduction to the fundamental concepts and methods of applied statistics. 
+                            Exploratory analysis of data. Sample design and experimental design. Probability 
+                            distributions and simulation. Sampling distributions. The reasoning of statistical 
+                            inference. Confidence intervals and tests for one and two samples. Inference for 
+                            contingency tables, regression, and correlation. Introduction to regression with 
+                            several explanatory variables. Essential use is made of statistical software throughout.
+                        </ng-template>
+                    </ngb-panel>
+                </ngb-accordion>
+            </div>
+        </div>
     </div>
-    <div class="row">
-        <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-courses-general" style="width: 100%;">
-            <ngb-panel title="CS180 : Problem Solving And Object-Oriented Programming" style="color: black;">
-                <ng-template ngbPanelContent>
-                    Problem solving and algorithms, implementation of algorithms in a high level programming language, 
-                    conditionals, the iterative approach and debugging, collections of data, searching and sorting, solving 
-                    problems by decomposition, the object-oriented approach, subclasses of existing classes, handling exceptions 
-                    that occur when the program is running, graphical user interfaces (GUIs), data stored in files, abstract 
-                    data types, a glimpse at topics from other CS courses.
-                </ng-template>
-            </ngb-panel>
-            <ngb-panel title="CS182 : Foundations Of Computer Science">
-                <ng-template ngbPanelContent>
-                    Logic and proofs; sets, functions, relations, sequences and summations; number representations; 
-                    counting; fundamentals of the analysis of algorithms; graphs and trees; proof techniques; recursion; 
-                    Boolean logic; finite state machines; pushdown automata; computability and undecidability.
-                </ng-template>
-            </ngb-panel>
-            <ngb-panel title="CS240 : Programming In C">
-                <ng-template ngbPanelContent>
-                    The UNIX environment, 
-                    C development cycle, data representation, operators, program structure, 
-                    recursion, macros, C preprocessor, pointers and addresses, dynamic memory allocation, structures, 
-                    unions, typedef, bit-fields, pointer/structure applications, UNIX file abstraction, file access, 
-                    low-level I/O, concurrency.
-                </ng-template>
-            </ngb-panel>
-            <ngb-panel title="CS250 : Computer Architecture">
-                <ng-template ngbPanelContent>
-                    Digital logic: transistors, gates,
-                    and combinatorial circuits; clocks; registers and register 
-                    banks; arithmetic-logic units; data representation: big-endian and little-endian integers; 
-                    ones and twos complement arithmetic; signed and unsigned values; Von-Neumann architecture and bottleneck; 
-                    instruction sets; RISC and CISC designs; instruction pipelines and stalls; rearranging code; memory and 
-                    address spaces; physical and virtual memory; interleaving; page tables; memory caches; bus architecture; 
-                    polling and interrupts; DMA; device programming; assembly language; optimizations; parallelism; data pipelining.
-                </ng-template>
-            </ngb-panel>
-            <ngb-panel title="CS252 : Systems Programming">
-                <ng-template ngbPanelContent>
-                    Low-level programming; review of addresses,
-                    pointers, memory layout, and data representation; text, data, 
-                    and bss segments; debugging and hex dumps; concurrent execution with threads and processes; address spaces; 
-                    file names; descriptors and file pointers; inheritance; system calls and library functions; standard I/O and 
-                    string libraries; simplified socket programming; building tools to help programmers; make and make files; 
-                    shell scripts and quoting; unix tools including sed, echo, test, and find; scripting languages such as awk; 
-                    version control; object and executable files (.o and a.out); symbol tables; pointers to functions; hierarchical 
-                    directories; and DNS hierarchy; programming embedded systems.
-                </ng-template>
-            </ngb-panel>
-            <ngb-panel title="CS354 : Operating Systems">
-                <ng-template ngbPanelContent>
-                    Introduction to operating systems. 
-                    Computer system and operating system architectures, processes, inter-process communication, 
-                    inter-process synchronization, mutual exclusion, deadlocks, memory hierarchy, virtual memory, 
-                    CPU scheduling, file systems, I/O device management, security.
-                </ng-template>
-            </ngb-panel>
-            <ngb-panel title="STAT350 : Introduction To Statistics">
-                <ng-template ngbPanelContent>
-                    A data-oriented 
-                    introduction to the fundamental concepts and methods of applied statistics. 
-                    Exploratory analysis of data. Sample design and experimental design. Probability 
-                    distributions and simulation. Sampling distributions. The reasoning of statistical 
-                    inference. Confidence intervals and tests for one and two samples. Inference for 
-                    contingency tables, regression, and correlation. Introduction to regression with 
-                    several explanatory variables. Essential use is made of statistical software throughout.
-                </ng-template>
-            </ngb-panel>
-        </ngb-accordion>
-    </div>
-    <div class="row">
-        <h3 class=""  style=""><br />Machine Intelligence Track</h3>
-    </div>
-    <div class="row">
-        <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-courses-mi" style="width: 100%;">
-            <ngb-panel title="CS373 : Data Mining And Machine Learning">
-                <ng-template ngbPanelContent>
-                    This course will introduce students to the
-                    field of data mining and machine learning, which sits at 
-                    the interface between statistics and computer science. Data mining and machine learning focuses on developing 
-                    algorithms to automatically discover patterns and learn models of large datasets. This course introduces 
-                    students to the process and main techniques in data mining and machine learning, including exploratory data 
-                    analysis, predictive modeling, descriptive modeling, and evaluation.
-                </ng-template>
-            </ngb-panel>
-            <ngb-panel title="CS381 : The Analysis of Algorithms">
-                <ng-template ngbPanelContent>
-                    Introduction to the design 
-                    and analysis of algorithms. A tentative list of topics includes: sorting and order 
-                    statistics; common algorithm design techniques, including divide-and-conquer, 
-                    dynamic programming, and greedy; design and use of data structures; flows and cuts; 
-                    lower bound techniques; graph algorithms; NP-completeness; randomized algorithms; 
-                    approximation algorithms.
-                </ng-template>
-            </ngb-panel>
-            <ngb-panel title="CS471 : Introduction to Artificial Intelligence">
-                <ng-template ngbPanelContent>
-                    Students are expected to spend at least three hours per week gaining experience with artificial 
-                    intelligence systems and developing software. Basic problem-solving strategies, 
-                    heuristic search, problem reduction and AND/OR graphs, knowledge representation, 
-                    expert systems, generating explanations, uncertainty reasoning, game playing, 
-                    planning, machine learning, computer vision, and programming systems such as 
-                    Lisp or Prolog.
-                </ng-template>
-            </ngb-panel>
-            <ngb-panel title="STAT416 : Probability">
-                <ng-template ngbPanelContent>
-                    An introduction to mathematical probability suitable as preparation for actuarial science, 
-                    statistical theory, and mathematical modeling. General probability rules, conditional 
-                    probability and Bayes theorem, discrete and continuous random variables, moments 
-                    and moment generating functions, joint and conditional distributions, standard 
-                    discrete and continuous distributions and their properties, law of large numbers 
-                    and central limit theorem.
-                </ng-template>
-            </ngb-panel>
-        </ngb-accordion>
-    </div>
-    <div class="row">
-        <h3 class=""  style=""><br />Database Information Systems Track</h3>
-    </div>
-    <div class="row">
-        <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-courses-db" style="width: 100%;">
-            <ngb-panel title="CS251 : Data Structures And Algorithms">
-                <ng-template ngbPanelContent>
-                    Running time analysis of algorithms and
-                    their implementations, one-dimensional data structures, trees, 
-                    heaps, additional sorting algorithms, binary search trees, hash tables, graphs, directed graphs, weighted 
-                    graph algorithms, additional topics.
-                </ng-template>
-            </ngb-panel>
-            <ngb-panel title="CS348 : Information Systems">
-                <ng-template ngbPanelContent>
-                    File organization and index structures; 
-                    object-oriented database languages; the relational database model with introductions to SQL and DBMS; 
-                    hierarchical models and network models with introductions to HDDL, HDML, and DBTG Codasyl; data mining; 
-                    data warehousing; database connectivity; distributed databases; the client/server paradigm; middleware, i
-                    ncluding ODBC, JDBC, CORBA, and MOM.
-                </ng-template>
-            </ngb-panel>
-            <ngb-panel title="CS448 : Relational Database Systems">
-                <ng-template ngbPanelContent>
-                    An in-depth examination of relational database systems including theory and concepts as 
-                    well as practical issues in relational databases. Modern database technologies 
-                    such as object-relational and Web-based access to relational databases. 
-                    Conceptual design and entity relationship modeling, relational algebra and 
-                    calculus, data definition and manipulation languages using SQL, schema and 
-                    view management, query processing and optimization, transaction management, 
-                    security, privacy, integrity management.
-                </ng-template>
-            </ngb-panel>
-            <ngb-panel title="CS426 : Computer Security">
-                <ng-template ngbPanelContent>
-                    A survey of the fundamentals of information security. Risks and vulnerabilities, policy 
-                    formation, controls and protection methods, database security, encryption, authentication 
-                    technologies, host-based and network-based security issues, personnel and physical security 
-                    issues, issues of law and privacy.
-                </ng-template>
-            </ngb-panel>
-        </ngb-accordion>
+    <div class="row justify-content-center">
+        <div class="col-md-5">
+            <div class="row">
+                <h3 class=""  style=""><br /><br />Machine Intelligence Track</h3>
+            </div>
+            <div class="row">
+                <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-courses-mi" style="width: 100%;">
+                    <ngb-panel title="CS373 : Data Mining And Machine Learning">
+                        <ng-template ngbPanelContent>
+                            This course will introduce students to the
+                            field of data mining and machine learning, which sits at 
+                            the interface between statistics and computer science. Data mining and machine learning focuses on developing 
+                            algorithms to automatically discover patterns and learn models of large datasets. This course introduces 
+                            students to the process and main techniques in data mining and machine learning, including exploratory data 
+                            analysis, predictive modeling, descriptive modeling, and evaluation.
+                        </ng-template>
+                    </ngb-panel>
+                    <ngb-panel title="CS381 : The Analysis of Algorithms">
+                        <ng-template ngbPanelContent>
+                            Introduction to the design 
+                            and analysis of algorithms. A tentative list of topics includes: sorting and order 
+                            statistics; common algorithm design techniques, including divide-and-conquer, 
+                            dynamic programming, and greedy; design and use of data structures; flows and cuts; 
+                            lower bound techniques; graph algorithms; NP-completeness; randomized algorithms; 
+                            approximation algorithms.
+                        </ng-template>
+                    </ngb-panel>
+                    <ngb-panel title="CS471 : Introduction to Artificial Intelligence">
+                        <ng-template ngbPanelContent>
+                            Students are expected to spend at least three hours per week gaining experience with artificial 
+                            intelligence systems and developing software. Basic problem-solving strategies, 
+                            heuristic search, problem reduction and AND/OR graphs, knowledge representation, 
+                            expert systems, generating explanations, uncertainty reasoning, game playing, 
+                            planning, machine learning, computer vision, and programming systems such as 
+                            Lisp or Prolog.
+                        </ng-template>
+                    </ngb-panel>
+                    <ngb-panel title="STAT416 : Probability">
+                        <ng-template ngbPanelContent>
+                            An introduction to mathematical probability suitable as preparation for actuarial science, 
+                            statistical theory, and mathematical modeling. General probability rules, conditional 
+                            probability and Bayes theorem, discrete and continuous random variables, moments 
+                            and moment generating functions, joint and conditional distributions, standard 
+                            discrete and continuous distributions and their properties, law of large numbers 
+                            and central limit theorem.
+                        </ng-template>
+                    </ngb-panel>
+                </ngb-accordion>
+            </div>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-5">
+            <div class="row">
+                <h3 class=""  style=""><br />Database Information Systems Track</h3>
+            </div>
+            <div class="row">
+                <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-courses-db" style="width: 100%;">
+                    <ngb-panel title="CS251 : Data Structures And Algorithms">
+                        <ng-template ngbPanelContent>
+                            Running time analysis of algorithms and
+                            their implementations, one-dimensional data structures, trees, 
+                            heaps, additional sorting algorithms, binary search trees, hash tables, graphs, directed graphs, weighted 
+                            graph algorithms, additional topics.
+                        </ng-template>
+                    </ngb-panel>
+                    <ngb-panel title="CS348 : Information Systems">
+                        <ng-template ngbPanelContent>
+                            File organization and index structures; 
+                            object-oriented database languages; the relational database model with introductions to SQL and DBMS; 
+                            hierarchical models and network models with introductions to HDDL, HDML, and DBTG Codasyl; data mining; 
+                            data warehousing; database connectivity; distributed databases; the client/server paradigm; middleware, i
+                            ncluding ODBC, JDBC, CORBA, and MOM.
+                        </ng-template>
+                    </ngb-panel>
+                    <ngb-panel title="CS448 : Relational Database Systems">
+                        <ng-template ngbPanelContent>
+                            An in-depth examination of relational database systems including theory and concepts as 
+                            well as practical issues in relational databases. Modern database technologies 
+                            such as object-relational and Web-based access to relational databases. 
+                            Conceptual design and entity relationship modeling, relational algebra and 
+                            calculus, data definition and manipulation languages using SQL, schema and 
+                            view management, query processing and optimization, transaction management, 
+                            security, privacy, integrity management.
+                        </ng-template>
+                    </ngb-panel>
+                    <ngb-panel title="CS426 : Computer Security">
+                        <ng-template ngbPanelContent>
+                            A survey of the fundamentals of information security. Risks and vulnerabilities, policy 
+                            formation, controls and protection methods, database security, encryption, authentication 
+                            technologies, host-based and network-based security issues, personnel and physical security 
+                            issues, issues of law and privacy.
+                        </ng-template>
+                    </ngb-panel>
+                </ngb-accordion>
+            </div>
+        </div>
     </div>
 </div>
 

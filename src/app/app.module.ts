@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { TabModule } from 'angular-tabs-component';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -36,7 +35,6 @@ import { SchoolCoursesComponent } from './components/school-courses/school-cours
   ],
   imports: [
     BrowserModule,
-    TabModule,
     AppRoutingModule,
     NgbModule
   ],
